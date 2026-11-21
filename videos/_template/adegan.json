@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "babak": "Hook",
+    "teks": "Coba bayangin, kamu bangun pagi, buka berita, dan nggak ada satu pun kasus korupsi baru.",
+    "visual": "Kamar sederhana pagi hari, maskot duduk di kasur memegang HP.",
+    "maskot": "kaget",
+    "grafis": { "tipe": "ChatHP", "isi": "Notifikasi berita: 0 kasus korupsi hari ini" },
+    "sumber": [],
+    "catatan": ""
+  }
+]
