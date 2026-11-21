@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#14213D"/>
+<circle cx="40" cy="320" r="120" fill="#2A9D8F" opacity="0.25"/>
+<circle cx="610" cy="30" r="110" fill="#E63946" opacity="0.25"/>
+<g transform="translate(172,125) scale(0.4) translate(-130,-60)">
+<line x1="88" y1="176" x2="84" y2="228" stroke="#C98B5A" stroke-width="13" stroke-linecap="round"/>
+<line x1="172" y1="176" x2="176" y2="228" stroke="#C98B5A" stroke-width="13" stroke-linecap="round"/>
+<rect x="106" y="266" width="21" height="46" rx="6" fill="#C98B5A"/>
+<rect x="133" y="266" width="21" height="46" rx="6" fill="#C98B5A"/>
+<ellipse cx="116" cy="319" rx="16" ry="6" fill="#333333"/><ellipse cx="144" cy="319" rx="16" ry="6" fill="#333333"/>
+<rect x="100" y="238" width="60" height="36" rx="8" fill="#FFFFFF"/>
+<rect x="98" y="150" width="64" height="94" rx="14" fill="#E63946"/>
+<line x1="98" y1="164" x2="88" y2="176" stroke="#E63946" stroke-width="16" stroke-linecap="round"/>
+<line x1="162" y1="164" x2="172" y2="176" stroke="#E63946" stroke-width="16" stroke-linecap="round"/>
+<text x="130" y="202" text-anchor="middle" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="800" font-size="16" fill="#FFFFFF">WOWO</text>
+<circle cx="130" cy="112" r="36" fill="#C98B5A"/>
+<path d="M94 110 Q90 70 130 66 Q170 70 166 110 Q162 94 156 88 L148 98 L140 86 L130 98 L120 86 L112 98 L104 88 Q98 96 94 110 Z" fill="#111111"/>
+<circle cx="118" cy="116" r="4" fill="#1F1A17"/><circle cx="142" cy="116" r="4" fill="#1F1A17"/>
+<path d="M120 130 Q130 137 140 130" fill="none" stroke="#1F1A17" stroke-width="3" stroke-linecap="round"/>
+</g>
+<text x="215" y="178" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="800" font-size="36" fill="#FFFFFF" stroke="#0B0B0B" stroke-width="1.2" stroke-linejoin="round" paint-order="stroke">POV ENDONESA</text>
+<rect x="215" y="188" width="290" height="22" rx="4" fill="#FFC93C"/>
+<text x="360" y="204" text-anchor="middle" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#0B0B0B">Coba bayangin kalau Indonesia...</text>
+</svg>
