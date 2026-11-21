@@ -28,10 +28,16 @@
 - Posisi tengah bawah, maksimal 6 kata per tampilan.
 
 ## Maskot
-- **[BELUM]** Desain final belum dibuat. Kriteria:
-  - Laki-laki muda Indonesia, warga biasa (bukan pejabat).
-  - Flat 2D, 1–2 ciri khas yang gampang dikenali dari jauh.
-  - Pose minimal: `netral`, `bicara`, `kaget`, `menunjuk`, `sedih`, `senang`, `berpikir`.
+- **Nama: Wowo** (karakter fiktif, tidak meniru tokoh nyata atau karakter berhak cipta mana pun).
+- **Desain v3 (disetujui):**
+  - Laki-laki muda, warga biasa, kulit sawo `#C98B5A`.
+  - Rambut hitam `#111111`, pendek, poni runcing.
+  - Baju kaos merah `#E63946` dengan tulisan **WOWO** putih di dada.
+  - Celana pendek putih `#FFFFFF` (outline tipis), kaki kelihatan, sandal gelap `#333333`.
+  - Gaya: flat 2D, badan kotak membulat, kepala bulat, mata titik, tanpa hidung.
+- **Pose:** v3 sudah ada `netral`, `kaget` (mata bulat, mulut "o", tangan terangkat), `bicara` (mulut terbuka, satu tangan terangkat). Masih perlu: `menunjuk`, `sedih`, `senang`, `berpikir`.
+- Rancangan komponen: `Maskot.tsx` dengan prop `pose`; bagian yang berubah antar pose hanya mata, mulut, dan tangan.
+- Setelah dibuat, maskot hanya dipanggil dari `remotion/src/components/Maskot.tsx`. Tidak boleh digambar ulang.
 - Setelah dibuat, maskot hanya dipanggil dari `remotion/src/components/Maskot.tsx`. Tidak boleh digambar ulang.
 
 ## Grafis penjelas (komponen siap pakai)

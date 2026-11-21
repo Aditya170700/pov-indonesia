@@ -1,9 +1,11 @@
 # CHANNEL
 
-> Status: draf awal. Bagian bertanda **[BELUM]** perlu diputuskan.
+> Status: nama channel, tagline, dan maskot sudah diputuskan.
 
 ## Identitas
-- **Nama channel:** [BELUM] — nama kerja: POV Indonesia
+- **Nama channel:** POV Endonesa
+- **Tagline:** "Coba bayangin kalau Indonesia..."
+- **Maskot:** Wowo (karakter fiktif warga biasa; lihat `STYLE.md`). Wowo = mewakili penonton ("kamu"), bukan tokoh nyata. Sindiran ke pejabat lewat karakter fiktif terpisah (mis. Pak Pejabat), bukan lewat Wowo.
 - **Konsep:** video simulasi POV "coba bayangin kalau..." tentang politik dan tata kelola Indonesia. Penonton adalah tokoh utamanya ("kamu").
 - **Target penonton:** warga Indonesia usia 18–35 yang resah dengan kondisi politik, menonton sambil santai atau sebelum tidur.
 - **Platform:** YouTube (utama), Facebook, TikTok.
