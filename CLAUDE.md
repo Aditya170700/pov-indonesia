@@ -15,5 +15,9 @@ Semua yang harus konsisten antar sesi disimpan di file, bukan di ingatan chat.
 - Kerjakan per tahap (lihat alur di `CHANNEL.md`). Hasil tiap tahap disimpan ke file di folder video, bukan hanya di chat.
 - Jangan mengarang fakta. Setiap angka atau klaim faktual di naskah harus punya sumber di `riset.md` dengan ID `[S1]`, `[S2]`, dst.
 - Angka yang tampil di layar (`adegan.json`) harus sama persis dengan yang diucapkan di naskah.
-- Maskot, subtitle, dan thumbnail selalu memakai komponen yang sudah ada di `remotion/`. Jangan menggambar ulang maskot dari nol.
+- Maskot Wowo, subtitle, dan grafis selalu memakai kode di `engine/` dan `assets/wowo-ref.png`. Jangan menggambar ulang maskot dari nol. Tidak memakai Remotion.
+- Klip adegan dibuat di Google Flow oleh pemilik repo dari prompt di `flow-prompts.md`; Claude tidak bisa menjalankan Flow. Setiap prompt wajib berdiri sendiri dan memuat kunci karakter dari `STYLE.md`.
+- Teks, angka, dan logo tidak boleh muncul di klip AI; semuanya lewat overlay kode.
+- Alur dan gerbang persetujuan (naskah, uji 360p, pratinjau 20 detik) ada di `CHANNEL.md`.
+- Render: `python3 engine/render.py <adegan.html> <out.mp4> --w 1280 --fps 30` (Chrome headless + ffmpeg).
 - Setelah video selesai, tambahkan barisnya di `LOG.md`.

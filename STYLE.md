@@ -1,10 +1,10 @@
 # STYLE
 
-> Status: draf awal. Nilai di bawah adalah usulan; ubah sesuai selera, lalu semua video mengikuti file ini.
+> Status: gaya visual, maskot (Wowo v4), dan alur klip Flow sudah diputuskan. Bagian grafis, thumbnail, dan audio masih draf.
 
 ## Kanvas
 - 1920×1080, 30 fps (video panjang); 1080×1920 (potongan pendek).
-- Gaya visual: ilustrasi flat 2D, bentuk sederhana, dibuat lewat kode (SVG/Remotion).
+- **Gaya visual: A2.2 Cinematic Story.** Adegan utama berupa klip video AI (Google Flow, Omni Flash) dengan latar berwarna sinematik. Grafis, angka, subtitle, dan perakitan dibuat dari kode (`engine/`, Chrome headless + ffmpeg).
 
 ## Warna
 | Peran | Hex | Pemakaian |
@@ -29,18 +29,20 @@
 
 ## Maskot
 - **Nama: Wowo** (karakter fiktif, tidak meniru tokoh nyata atau karakter berhak cipta mana pun).
-- **Desain v3 (disetujui):**
-  - Laki-laki muda, warga biasa, kulit sawo `#C98B5A`.
-  - Rambut hitam `#111111`, pendek, poni runcing.
-  - Baju kaos merah `#E63946` dengan tulisan **WOWO** putih di dada.
-  - Celana pendek putih `#FFFFFF` (outline tipis), kaki kelihatan, sandal gelap `#333333`.
-  - Gaya: flat 2D, badan kotak membulat, kepala bulat, mata titik, tanpa hidung.
-- **Pose:** v3 sudah ada `netral`, `kaget` (mata bulat, mulut "o", tangan terangkat), `bicara` (mulut terbuka, satu tangan terangkat). Masih perlu: `menunjuk`, `sedih`, `senang`, `berpikir`.
-- Rancangan komponen: `Maskot.tsx` dengan prop `pose`; bagian yang berubah antar pose hanya mata, mulut, dan tangan.
-- Setelah dibuat, maskot hanya dipanggil dari `remotion/src/components/Maskot.tsx`. Tidak boleh digambar ulang.
-- Setelah dibuat, maskot hanya dipanggil dari `remotion/src/components/Maskot.tsx`. Tidak boleh digambar ulang.
+- **Desain v4 (stickman murni + topi merah, disetujui):**
+  - Kepala bulat putih-gading `#F5F1E8` dengan garis hitam tipis, dua mata titik, senyum kecil.
+  - Topi merah `#E63946` ala baseball dengan brim pendek ke depan, **tanpa tulisan** (teks tidak andal di klip AI).
+  - Badan, lengan, dan kaki berupa garis hitam tebal seragam; tanpa baju dan celana.
+  - Karakter pendukung: stickman abu-abu polos tanpa topi (warga, petugas, pekerja).
+- **Rig kode:** `engine/wowo.js` (varian `stick`). Lembar referensi: `assets/wowo-ref.png` (dipakai sebagai gambar referensi karakter di Flow untuk SETIAP klip).
+- **Pose di rig:** netral, jalan, kaget (mata bulat, mulut "o", tangan terangkat), menunjuk, bicara. Pose lain ditambah sesuai kebutuhan.
+- Tulisan "WOWO" hanya muncul lewat overlay kode (intro, thumbnail), bukan di klip AI.
+- Varian lama (v3: kulit sawo, kaus merah WOWO) tetap ada di rig (`variant: 'kaus'`) untuk adegan kode. Maskot tidak boleh digambar ulang di luar `engine/wowo.js` dan `assets/wowo-ref.png`.
 
-## Grafis penjelas (komponen siap pakai)
+### Kunci karakter untuk prompt Flow
+Dipakai persis di tiap prompt (lihat `videos/001-bebas-korupsi/flow-prompts.md`): round off-white head with thin black outline, two dot eyes, small smile, bright red baseball-style cap with short brim (no text), thin black stick body and limbs of constant line weight, no clothes.
+
+## Grafis penjelas (komponen kode di `engine/`, dibuat bertahap)
 - `Kalender` — "HARI KE-…", "TAHUN KE-…"
 - `ChatHP` — tampilan chat WhatsApp/notifikasi berita
 - `AngkaBesar` — angka/statistik dengan animasi hitung

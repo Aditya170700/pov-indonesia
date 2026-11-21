@@ -1,0 +1,216 @@
+[
+  {
+    "id": 1,
+    "babak": "Hook",
+    "klip": "K01",
+    "teks": "Coba bayangin. Besok pagi kamu bangun, buka berita, dan nggak ada satu pun kasus korupsi baru.",
+    "estimasi_dtk": 7,
+    "visual": "Kamar pagi, Wowo bangun lalu melihat layar HP penuh centang hijau (tanpa teks).",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": "Kartu notifikasi berita 'Tidak ada kasus korupsi baru' (ChatHP, label ilustrasi) di sekitar detik 5-8.",
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 2,
+    "babak": "Hook",
+    "klip": "K01",
+    "teks": "Bukan karena beritanya disensor. Tapi karena memang nggak ada.",
+    "estimasi_dtk": 4,
+    "visual": "Kamar pagi, Wowo bangun lalu melihat layar HP penuh centang hijau (tanpa teks).",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": "Kartu notifikasi berita 'Tidak ada kasus korupsi baru' (ChatHP, label ilustrasi) di sekitar detik 5-8.",
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 3,
+    "babak": "Hook",
+    "klip": "K02",
+    "teks": "Gimana rasanya hidup di Indonesia yang kayak gitu? Dan yang terjadi setelahnya, nggak sesederhana yang kamu kira.",
+    "estimasi_dtk": 7,
+    "visual": "Wowo di jendela memandang kota yang tenang, menoleh ke kamera.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": null,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 4,
+    "babak": "Aturan skenario",
+    "klip": "K03",
+    "teks": "Aturan mainnya begini. Di dunia bayangan ini, korupsi nol. Nggak ada suap, nggak ada uang pelicin, nggak ada proyek yang digelembungkan.",
+    "estimasi_dtk": 9,
+    "visual": "Loket layanan transparan, laci kosong, ikon amplop dicoret.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": null,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 5,
+    "babak": "Aturan skenario",
+    "klip": "K04",
+    "teks": "Sebagai pembanding, di Indeks Persepsi Korupsi dua ribu dua puluh lima, Indonesia dapat skor tiga puluh empat dari seratus, dan turun ke peringkat seratus sembilan dari seratus delapan puluh negara.",
+    "estimasi_dtk": 12,
+    "visual": "Plaza senja, layar raksasa dengan grafik menurun, Wowo menunduk.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": "AngkaBesar '34/100' lalu 'Peringkat 109 dari 180 negara' (CPI 2025, S1/S2) di kanan atas.",
+    "sumber": [
+      "S1",
+      "S2"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 6,
+    "babak": "Aturan skenario",
+    "klip": "K05",
+    "teks": "Jadi dunia ini masih jauh. Tapi namanya juga bayangin.",
+    "estimasi_dtk": 4,
+    "visual": "Wowo mengangkat bahu dan tersenyum tipis.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": null,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 7,
+    "babak": "Hari pertama",
+    "klip": "K06",
+    "teks": "Hari pertama. Kamu mengurus dokumen yang kamu butuhkan. Prosesnya jelas, biayanya jelas, dan nggak ada yang menawarkan jalur cepat. Kamu antre seperti semua orang.",
+    "estimasi_dtk": 10,
+    "visual": "Antre tertib di kantor layanan, tanpa jalur cepat.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": "Kalender 'HARI KE-1' (kode) di kanan atas.",
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 8,
+    "babak": "Hari pertama",
+    "klip": "K07",
+    "teks": "Nggak instan, tapi adil. Dan kamu pulang tanpa merasa ada yang dirugikan.",
+    "estimasi_dtk": 5,
+    "visual": "Wowo pulang sore hari dengan map dokumen, lega.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": null,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 9,
+    "babak": "Tahun pertama",
+    "klip": "K08",
+    "teks": "Setahun kemudian, bayangin uangnya. Menurut ICW, pada dua ribu dua puluh empat negara berpotensi rugi dua ratus tujuh puluh sembilan koma sembilan triliun rupiah akibat korupsi.",
+    "estimasi_dtk": 11,
+    "visual": "Karung koin bocor ditambal Wowo, koin berhenti jatuh.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": "Kalender 'TAHUN KE-1' dan AngkaBesar 'Rp279,9 triliun' + label 'potensi kerugian negara akibat korupsi 2024 (ICW)' [S3].",
+    "sumber": [
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 10,
+    "babak": "Tahun pertama",
+    "klip": "K09",
+    "teks": "Sebagai gambaran besarnya, anggaran kesehatan di rancangan APBN dua ribu dua puluh enam adalah dua ratus empat puluh empat triliun rupiah. Tahunnya beda, jadi ini bukan perbandingan langsung, tapi kelihatan skalanya.",
+    "estimasi_dtk": 14,
+    "visual": "Dua menara koin, Wowo membandingkan skalanya.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": "Dua angka (kode): 'Rp279,9 T potensi kerugian 2024 [S3]' vs 'Rp244 T anggaran kesehatan RAPBN 2026 [S5]' + catatan 'beda tahun, bukan perbandingan langsung'.",
+    "sumber": [
+      "S3",
+      "S5"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 11,
+    "babak": "Tahun pertama",
+    "klip": "K10",
+    "teks": "Kalau uang sebesar itu tidak bocor, bayangin berapa puskesmas, sekolah, dan jalan yang bisa dibangun.",
+    "estimasi_dtk": 6,
+    "visual": "Puskesmas, sekolah, dan jalan dibangun; Wowo melihat dari bukit.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": null,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 12,
+    "babak": "Twist",
+    "klip": "K11",
+    "teks": "Tapi ini bagian yang jarang dibahas. Perubahan sebesar ini nggak datang tanpa gesekan. Ada aturan baru, pengawasan lebih ketat, dan kebiasaan lama yang harus diubah.",
+    "estimasi_dtk": 10,
+    "visual": "Wowo dan warga mendorong pintu raksasa berroda gigi: perubahan butuh gesekan.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": null,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 13,
+    "babak": "Twist",
+    "klip": "K12",
+    "teks": "Dan bebas korupsi bukan sulap. Jalan tetap harus dibangun, guru tetap harus dilatih.",
+    "estimasi_dtk": 5,
+    "visual": "Membangun dinding sekolah, guru di papan tulis kosong.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": null,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 14,
+    "babak": "Twist",
+    "klip": "K13",
+    "teks": "Kenyataannya sekarang, ICW mencatat rata-rata hukuman koruptor pada dua ribu dua puluh empat cuma tiga tahun tiga bulan, dan hanya empat koma tujuh puluh delapan persen kerugian negara yang kembali.",
+    "estimasi_dtk": 12,
+    "visual": "Timbangan raksasa miring: karung emas vs satu koin.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": "Dua angka (kode): '3 tahun 3 bulan' rata-rata vonis 2024 dan '4,78%' kerugian yang kembali [S4].",
+    "sumber": [
+      "S4"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 15,
+    "babak": "Twist",
+    "klip": "K14",
+    "teks": "Artinya, yang perlu dibenahi bukan cuma orangnya, tapi sistemnya.",
+    "estimasi_dtk": 4,
+    "visual": "Cetak biru roda gigi: sistem yang perlu dibenahi.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": null,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 16,
+    "babak": "Penutup",
+    "klip": "K15",
+    "teks": "Jadi, Indonesia tanpa korupsi memang belum ada. Tapi arah ke sana bisa dimulai dari hal kecil: ikut mengawasi anggaran yang terbuka untuk publik, dan memakai kanal pengaduan resmi.",
+    "estimasi_dtk": 11,
+    "visual": "Warga bersama-sama memantau dasbor anggaran.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": null,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 17,
+    "babak": "Penutup",
+    "klip": "K16",
+    "teks": "Kalau korupsi benar-benar hilang besok, perubahan apa yang pertama kali kamu rasakan? Tulis di kolom komentar.",
+    "estimasi_dtk": 7,
+    "visual": "Bukit saat fajar, Wowo menoleh ke kamera menunggu jawaban.",
+    "maskot": "Wowo (stickman, topi merah)",
+    "grafis": "Teks pertanyaan komentar (kode) + subtitle.",
+    "sumber": [],
+    "catatan": ""
+  }
+]

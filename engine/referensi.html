@@ -1,0 +1,16 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>html,body{margin:0}canvas{display:block}</style></head>
+<body><canvas id="c" width="1920" height="1080"></canvas>
+<script src="wowo.js"></script>
+<script>
+// Lembar referensi Wowo (stickman + topi merah) tanpa teks, untuk gambar referensi karakter di Flow.
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const g = ctx.createLinearGradient(0, 0, 0, 1080); g.addColorStop(0, '#EEEBE4'); g.addColorStop(1, '#DAD6CC');
+ctx.fillStyle = g; ctx.fillRect(0, 0, 1920, 1080);
+ctx.fillStyle = 'rgba(0,0,0,.06)'; ctx.fillRect(0, 900, 1920, 180);
+const stand = { legF: [8, 6], legB: [-8, -6], armF: [-16, -12], armB: [18, 14], lean: 0, face: { mode: 'smile' } };
+const walk = { legF: [28, -6], legB: [-26, -50], armF: [-26, -4], armB: [28, 50], lean: 4, face: { mode: 'smile' } };
+const wow = { legF: [10, 6], legB: [-10, -6], armF: [118, 150], armB: [-118, -150], lean: -4, face: { mode: 'wow' }, bob: 14 };
+ctx.save(); ctx.translate(330, 470); ctx.scale(5.2, 5.2); WOWO.head(ctx, { mode: 'smile' }, true); ctx.restore();
+for (const [x, p] of [[800, stand], [1200, walk], [1620, wow]]) WOWO.drawWowo(ctx, { variant: 'stick', x, groundY: 900, k: 2.1, ...p });
+</script></body></html>

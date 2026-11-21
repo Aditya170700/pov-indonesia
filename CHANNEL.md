@@ -5,7 +5,7 @@
 ## Identitas
 - **Nama channel:** POV Endonesa
 - **Tagline:** "Coba bayangin kalau Indonesia..."
-- **Maskot:** Wowo (karakter fiktif warga biasa; lihat `STYLE.md`). Wowo = mewakili penonton ("kamu"), bukan tokoh nyata. Sindiran ke pejabat lewat karakter fiktif terpisah (mis. Pak Pejabat), bukan lewat Wowo.
+- **Maskot:** Wowo (stickman fiktif bertopi merah; lihat `STYLE.md`). Wowo = mewakili penonton ("kamu"), bukan tokoh nyata. Sindiran ke pejabat lewat karakter fiktif terpisah (mis. Pak Pejabat), bukan lewat Wowo.
 - **Konsep:** video simulasi POV "coba bayangin kalau..." tentang politik dan tata kelola Indonesia. Penonton adalah tokoh utamanya ("kamu").
 - **Target penonton:** warga Indonesia usia 18–35 yang resah dengan kondisi politik, menonton sambil santai atau sebelum tidur.
 - **Platform:** YouTube (utama), Facebook, TikTok.
@@ -36,21 +36,25 @@
 6. Saat upload, aktifkan label konten AI (audio/visual sintetis).
 
 ## Alur produksi per video
-| # | Tahap | Hasil di `videos/NNN-slug/` |
-|---|---|---|
-| 1 | Ide + judul | judul di `naskah.md` |
-| 2 | Riset fakta | `riset.md` |
-| 3 | Naskah | `naskah.md` |
-| 4 | Daftar adegan | `adegan.json` |
-| 5 | Narasi (VoxCPM2) | `narasi.wav` (tidak masuk git) |
-| 6 | Timing kata (faster-whisper) | `kata.json` |
-| 7 | Visual (Remotion) | kode adegan di `remotion/` |
-| 8 | Preview + revisi | — |
-| 9 | Musik + SFX | — |
-| 10 | Render | `out/*.mp4` (tidak masuk git) |
-| 11 | QC (tonton penuh, cek angka vs narasi) | catatan di `naskah.md` |
-| 12 | Kemasan: thumbnail, deskripsi + sumber, pinned comment | `upload.md` |
-| 13 | Upload + potongan Shorts | baris baru di `LOG.md` |
+Pembagian kerja: Claude = riset, naskah, storyboard, prompt klip, grafis dan perakitan (render di workspace Claude). Pemilik repo = rekam narasi (VoiceStudio) dan generate klip di Flow.
+
+| # | Tahap | Hasil di `videos/NNN-slug/` | Siapa |
+|---|---|---|---|
+| 1 | Ide + judul | judul di `naskah.md` | Claude |
+| 2 | Riset fakta | `riset.md` | Claude |
+| 3 | Naskah (minta persetujuan) | `naskah.md` | Claude + user |
+| 4 | Storyboard + peta narasi ke klip | `storyboard.md`, `adegan.json` | Claude |
+| 5 | Prompt klip Flow | `flow-prompts.md` | Claude |
+| 6 | Uji 1 klip di 360p, lalu generate semua klip | `K01.mp4` ... (tidak masuk git) | user |
+| 7 | Narasi (VoxCPM2 clone) | `narasi.wav` (tidak masuk git) | user |
+| 8 | Timing kata (faster-whisper) | `kata.json` atau `.srt` | user |
+| 9 | Perakitan: klip + overlay angka + subtitle + audio | MP4 di `out/` | Claude |
+| 10 | Pratinjau 20 detik, revisi, lalu render penuh | — | Claude + user |
+| 11 | QC (cek angka vs narasi, audio, sumber ICW/PDF) | catatan di `naskah.md` | user + Claude |
+| 12 | Kemasan: thumbnail, deskripsi + sumber, pinned comment | `upload.md` | Claude |
+| 13 | Upload + potongan Shorts | baris baru di `LOG.md` | user |
+
+Gerbang persetujuan: naskah disetujui sebelum storyboard; satu klip uji 360p sebelum generate semua; pratinjau 20 detik sebelum render penuh.
 
 ## Memulai sesi baru
 Cukup tulis:
