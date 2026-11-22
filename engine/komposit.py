@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Gabungkan base.mp4 + overlay (subtitle & kartu, dari engine/overlay.html) + narasi jadi video akhir.
-Pakai: python3 engine/komposit.py videos/001-bebas-korupsi out/001.mp4 [--start 0 --dur 20]
+Pakai: python3 engine/komposit.py videos/testing out/testing.mp4 [--start 0 --dur 20]
 Tanpa --start/--dur = seluruh video. Butuh: base.mp4 (rakit.py), narasi.mp3, kata.json, overlay.json."""
 import argparse, base64, json, re, subprocess, sys
 from pathlib import Path

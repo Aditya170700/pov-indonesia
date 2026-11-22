@@ -11,7 +11,7 @@ Semua yang harus konsisten antar sesi disimpan di file, bukan di ingatan chat.
 
 ## Aturan kerja
 - Bahasa komunikasi dengan pemilik repo: bahasa Indonesia santai.
-- Satu video = satu folder `videos/NNN-slug/`, salin dari `videos/_template/`.
+- Satu video = satu folder `videos/NNN-slug/`, salin dari `videos/_template/`. Nomor 001 dipakai video pertama yang benar-benar dirilis; `videos/testing/` adalah video uji workflow (arsip, bukan nomor).
 - Kerjakan per tahap (lihat alur di `CHANNEL.md`). Hasil tiap tahap disimpan ke file di folder video, bukan hanya di chat.
 - Jangan mengarang fakta. Setiap angka atau klaim faktual di naskah harus punya sumber di `riset.md` dengan ID `[S1]`, `[S2]`, dst.
 - Angka yang tampil di layar (`adegan.json`) harus sama persis dengan yang diucapkan di naskah.

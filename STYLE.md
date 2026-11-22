@@ -40,7 +40,7 @@
 - Varian lama (v3: kulit sawo, kaus merah WOWO) tetap ada di rig (`variant: 'kaus'`) untuk adegan kode. Maskot tidak boleh digambar ulang di luar `engine/wowo.js` dan `assets/wowo-ref.png`.
 
 ### Kunci karakter untuk prompt Flow
-Dipakai persis di tiap prompt (lihat `videos/001-bebas-korupsi/flow-prompts.md`): round off-white head with thin black outline, two dot eyes, small smile, bright red baseball-style cap with short brim (no text), thin black stick body and limbs of constant line weight, no clothes.
+Dipakai persis di tiap prompt (lihat `videos/testing/flow-prompts.md`): round off-white head with thin black outline, two dot eyes, small smile, bright red baseball-style cap with short brim (no text), thin black stick body and limbs of constant line weight, no clothes.
 
 ## Grafis penjelas (sudah ada di `engine/overlay.html`; tipe dipanggil lewat `overlay.json`)
 - `kal` (kalender) — "HARI KE-…", "TAHUN KE-…"

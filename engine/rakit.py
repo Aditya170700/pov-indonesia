@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Rakit klip jadi satu video dasar (tanpa suara) mengikuti timeline.json.
-Pakai: python3 engine/rakit.py videos/001-bebas-korupsi [out.mp4]
+Pakai: python3 engine/rakit.py videos/testing [out.mp4]
 Tiap klip: dipercepat/diperlambat (0,9x-1,15x) agar pas dengan jendelanya, sisanya dipotong
 atau diam di frame terakhir. Hasil 1920x1080, 30 fps, tanpa audio (audio klip dibuang)."""
 import json, subprocess, sys
