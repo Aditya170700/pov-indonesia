@@ -1,0 +1,84 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}canvas{display:block}</style></head>
+<body><canvas id="c"></canvas>
+<script src="wowo.js"></script>
+<script>
+// Aset channel dari kode: logo, banner, thumbnail. Dipanggil lewat hash: #logo, #banner, #thumb-a, #thumb-b
+const NAVY = '#14213D', RED = '#E63946', GREEN = '#2A9D8F', YEL = '#FFC93C', INK = '#0B0B0B';
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const F = (w, s) => `${w} ${s}px Poppins, Arial, sans-serif`;
+const stand = { legF: [8, 6], legB: [-8, -6], armF: [-16, -12], armB: [18, 14], lean: 0, face: { mode: 'smile' } };
+const wow = { legF: [10, 6], legB: [-10, -6], armF: [118, 150], armB: [-118, -150], lean: -4, face: { mode: 'wow' } };
+const point = { legF: [8, 6], legB: [-8, -6], armF: [95, 85], armB: [18, 14], lean: 2, face: { mode: 'smile' } };
+
+function circle(x, y, r, c, a) { ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = c; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.restore(); }
+function outlined(t, x, y, font, fill, lw, align) {
+  ctx.font = font; ctx.textAlign = align || 'left'; ctx.textBaseline = 'alphabetic';
+  ctx.lineJoin = 'round'; ctx.strokeStyle = INK; ctx.lineWidth = lw; ctx.strokeText(t, x, y);
+  ctx.fillStyle = fill; ctx.fillText(t, x, y);
+}
+function pill(x, y, w, h, c, t, font, tc) {
+  ctx.fillStyle = c; ctx.beginPath(); ctx.roundRect(x, y, w, h, h * 0.22); ctx.fill();
+  ctx.fillStyle = tc || INK; ctx.font = font; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(t, x + w / 2, y + h / 2 + 2);
+}
+
+function logo() {
+  cv.width = cv.height = 800;
+  ctx.fillStyle = NAVY; ctx.fillRect(0, 0, 800, 800);
+  circle(150, 120, 260, GREEN, 0.22); circle(700, 700, 200, RED, 0.22);
+  ctx.save(); ctx.translate(330, 400); ctx.scale(6.2, 6.2); WOWO.head(ctx, { mode: 'smile' }, true); ctx.restore();
+  pill(250, 610, 300, 110, YEL, 'POV', F(800, 80));
+  ctx.strokeStyle = YEL; ctx.lineWidth = 16; ctx.beginPath(); ctx.arc(400, 400, 384, 0, 7); ctx.stroke();
+}
+
+function banner() {
+  cv.width = 2560; cv.height = 1440;
+  ctx.fillStyle = NAVY; ctx.fillRect(0, 0, 2560, 1440);
+  circle(250, 1250, 560, GREEN, 0.2); circle(2400, 120, 520, RED, 0.2);
+  // area aman YouTube (semua perangkat): 1546x423, x 507-2053, y 508-932
+  ctx.save(); ctx.translate(690, 735); ctx.scale(5.4, 5.4); WOWO.head(ctx, { mode: 'smile' }, true); ctx.restore();
+  outlined('POV ENDONESA', 960, 740, F(800, 128), '#FFFFFF', 10);
+  pill(960, 772, 1040, 118, YEL, 'Coba bayangin kalau Indonesia...', F(700, 56));
+}
+
+function thumbBg(accent) {
+  cv.width = 1280; cv.height = 720;
+  const g = ctx.createLinearGradient(0, 0, 1280, 720); g.addColorStop(0, '#0E1830'); g.addColorStop(1, '#1D3557');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, 1280, 720);
+  // sinar dari belakang maskot
+  const r = ctx.createRadialGradient(960, 330, 20, 960, 330, 520); r.addColorStop(0, accent + 'AA'); r.addColorStop(1, accent + '00');
+  ctx.fillStyle = r; ctx.fillRect(0, 0, 1280, 720);
+}
+function coin(x, y, r) {
+  ctx.fillStyle = YEL; ctx.strokeStyle = INK; ctx.lineWidth = r * 0.12;
+  ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.stroke();
+  ctx.strokeStyle = '#E0A800'; ctx.lineWidth = r * 0.08; ctx.beginPath(); ctx.arc(x, y, r * 0.72, 0, 7); ctx.stroke();
+  ctx.fillStyle = INK; ctx.font = F(800, r * 0.8); ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText('Rp', x, y + r * 0.05);
+}
+function skyline() { // siluet kota, ilustrasi umum (bukan gedung tertentu)
+  ctx.fillStyle = '#0A1226';
+  const b = [[0, 150], [70, 230], [150, 180], [230, 300], [300, 210], [380, 260], [450, 170], [530, 330], [600, 220], [680, 190], [760, 280], [840, 200], [920, 250], [1000, 170], [1080, 300], [1160, 220], [1230, 160]];
+  for (const [x, h] of b) ctx.fillRect(x, 720 - h, 78, h);
+}
+
+function thumbA() {
+  thumbBg(RED); skyline();
+  // jalan emas menuju kota
+  ctx.fillStyle = '#2A2F3A'; ctx.beginPath(); ctx.moveTo(0, 720); ctx.lineTo(1280, 720); ctx.lineTo(1280, 620); ctx.lineTo(0, 650); ctx.fill();
+  coin(1130, 560, 70); coin(1040, 610, 52); coin(1205, 640, 46);
+  WOWO.drawWowo(ctx, { variant: 'stick', x: 1005, groundY: 960, k: 3.4, ...wow });
+  outlined('TANPA', 50, 330, F(800, 155), '#FFFFFF', 20);
+  outlined('KORUPSI?', 50, 490, F(800, 155), YEL, 20);
+}
+function thumbB() {
+  thumbBg(GREEN); skyline();
+  ctx.fillStyle = '#2A2F3A'; ctx.beginPath(); ctx.moveTo(0, 720); ctx.lineTo(1280, 720); ctx.lineTo(1280, 640); ctx.lineTo(0, 660); ctx.fill();
+  coin(1160, 580, 66);
+  WOWO.drawWowo(ctx, { variant: 'stick', x: 1010, groundY: 940, k: 3.3, ...wow });
+  outlined('LEBIH KAYA', 50, 250, F(800, 120), '#FFFFFF', 18);
+  outlined('DARI', 50, 380, F(800, 120), '#FFFFFF', 18);
+  outlined('SINGAPURA?', 50, 510, F(800, 120), YEL, 18);
+}
+const m = { '#logo': logo, '#banner': banner, '#thumb-a': thumbA, '#thumb-b': thumbB };
+window.ready = Promise.all([document.fonts.load(F(800, 100)), document.fonts.load(F(700, 60))]).then(() => { m[location.hash](); return true; });
+</script></body></html>

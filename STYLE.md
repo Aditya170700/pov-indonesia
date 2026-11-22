@@ -1,6 +1,6 @@
 # STYLE
 
-> Status: gaya visual, maskot (Wowo v4), alur klip Flow, subtitle, dan grafis sudah diuji di pilot 001. Thumbnail dan musik latar masih draf.
+> Status: gaya visual, maskot (Wowo v4), alur klip Flow, subtitle, dan grafis sudah diuji di pilot 001. Logo, banner, dan thumbnail sudah memakai Wowo v4; musik latar masih draf.
 
 ## Kanvas
 - 1920×1080, 30 fps (video panjang); 1080×1920 (potongan pendek).
@@ -47,6 +47,11 @@ Dipakai persis di tiap prompt (lihat `videos/testing/flow-prompts.md`): round of
 - `notif` — kartu notifikasi berita (selalu berlabel ILUSTRASI)
 - `stat` — kartu angka dengan animasi hitung, label, dan baris sumber; `pill` — catatan pendek; `judul` — kartu judul di awal; `tanya` — pertanyaan komentar di akhir
 - Belum ada: `PetaIndonesia` (sorotan provinsi/kota), `Headline` (judul berita fiktif)
+
+## Logo, banner, thumbnail (dari kode)
+- Semua dibuat oleh `engine/aset.html` + `engine/aset.py` memakai rig Wowo v4 (stickman + topi merah): `python3 engine/aset.py logo|banner|thumb-a|thumb-b KELUAR.png`.
+- Logo `assets/logo-800.png` (800x800, avatar bulat), banner `assets/banner-2560x1440.png` (konten di area aman YouTube 1546x423), thumbnail 1280x720 per video (`videos/NNN-slug/thumbnail-*.png`).
+- Thumbnail baru: tambah fungsi di `aset.html`, jangan menggambar maskot di luar `wowo.js`.
 
 ## Thumbnail
 - Maskot dengan ekspresi kuat di satu sisi.
