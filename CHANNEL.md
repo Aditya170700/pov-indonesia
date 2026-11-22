@@ -41,8 +41,8 @@ Pembagian kerja: Claude = riset, naskah, storyboard, prompt klip, grafis dan per
 | # | Tahap | Hasil di `videos/NNN-slug/` | Siapa |
 |---|---|---|---|
 | 1 | Ide + judul | judul di `naskah.md` | Claude |
-| 2 | Riset fakta | `riset.md` | Claude |
-| 3 | Naskah (minta persetujuan) | `naskah.md` | Claude + user |
+| 2 | Riset fakta + skor kejutan (5-10 fakta kuat) | `riset.md` | Claude |
+| 3 | Naskah: paket judul/thumbnail, 3 varian hook, peta open loop (minta persetujuan) | `naskah.md` | Claude + user |
 | 4 | Storyboard + peta narasi ke klip | `storyboard.md`, `adegan.json` | Claude |
 | 5 | Prompt klip Flow | `flow-prompts.md` | Claude |
 | 6 | Uji 1 klip di 360p, lalu generate semua klip (360p, upscale ke 720p di Flow) | `klip/K01.mp4` ... (tidak masuk git) | user |
@@ -64,3 +64,4 @@ Cukup tulis:
 - Narasi memimpin: tiap klip diperlambat/dipercepat 0,9x-1,15x lalu dipotong atau dibekukan di frame terakhir. Karena itu durasi klip yang dipesan di storyboard sebaiknya sedikit lebih panjang dari estimasi narasi segmennya (selisih ideal 0-1 dtk), bukan jauh lebih panjang.
 - Kredit Flow: 16 klip 360p (134 dtk) memakai 135 kredit; "tingkatkan resolusi" ke 720p tidak mengurangi kredit (diuji pengguna). Render penuh 130 dtk butuh ±2 menit di workspace.
 - Panduan langkah untuk pemilik repo (Flow, VoiceStudio, kata.py): `PANDUAN.md`.
+- Retensi: aturan struktur naskah (hook, re-hook tiap 30-60 dtk, open loop, ritme visual tiap 4-8 dtk, penutup dengan teaser) ada di `templates/naskah.md`. Setelah video rilis, catat di `LOG.md` menit berapa penonton paling banyak pergi, lalu koreksi template.

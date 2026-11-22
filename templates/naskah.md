@@ -1,36 +1,64 @@
 # TEMPLATE NASKAH
 
-Target: 1.500–1.800 kata (≈10–13 menit). Bahasa santai, menyapa "kamu".
+Target: 1.500–1.800 kata (≈10–13 menit, ±140 kata/menit). Bahasa santai, menyapa "kamu".
 
-## Struktur
+Prinsip: isi video harus **melampaui** yang dibayangkan penonton dari judul dan thumbnail. Tiap bagian harus memberi alasan untuk terus menonton: pertanyaan yang dibuka (open loop), lalu dibayar (payoff) sambil membuka pertanyaan baru. Aturan angka di bawah adalah pedoman umum, bukan hasil data channel kita; koreksi setelah ada grafik retensi dari YouTube Studio.
 
-### 1. Hook (0:00–0:30)
-- Buka dengan "Coba bayangin..." dan satu situasi konkret yang langsung dirasakan penonton.
-- Janjikan apa yang akan terjadi ("dan yang terjadi berikutnya bakal bikin kamu kaget").
+## Sebelum menulis (wajib)
+1. **Paket judul + thumbnail:** tulis 3 judul (pola `POV: <skenario>, Ini yang Terjadi`, maks. 60 karakter) dan 1 ide thumbnail. Judul memberi janji; naskah harus membayarnya.
+2. **Janji video** satu kalimat, dan **emosi utama** (mis. lega, kaget, resah, geli).
+3. **Fakta kejutan:** di `riset.md`, beri skor kejutan 1–100 per fakta (80+ = emas, 50–79 = pendukung, <50 dibuang). Kumpulkan 5–10 fakta kuat. Hook dan klimaks dibangun dari yang skornya tertinggi.
+4. **Peta open loop:** daftar pertanyaan yang dibuka di hook dan babak, dan di bagian mana tiap pertanyaan dijawab.
 
-### 2. Aturan skenario (0:30–1:00)
-- Jelaskan aturan dunia baru ini dalam 2–3 kalimat.
-- Satu fakta nyata sebagai pembanding kondisi sekarang `[S#]`.
+## Struktur (dengan acuan menit untuk 10–13 menit)
 
-### 3. Progres bertahap (1:00–9:00)
-Bagi menjadi 4–6 babak waktu, misalnya: Hari 1 → Minggu 1 → Bulan 1 → Tahun 1 → 10 Tahun.
-Setiap babak:
-- Apa yang **kamu** alami langsung (dompet, pekerjaan, keluarga, lingkungan).
-- Satu fakta atau angka nyata sebagai jangkar `[S#]`.
-- Satu detail kecil yang relate (antre di kelurahan, harga cabai, jalan berlubang, dll).
+### 1. Hook (0:00–0:25)
+- Mulai dari situasi konkret yang dirasakan "kamu" (bukan pengantar abstrak). Tanpa salam, tanpa sapaan channel.
+- Sebut taruhan dan satu pertanyaan yang harus dijawab, lalu bayangan twist ("tapi ada satu hal yang justru memburuk, dan itu ada di menit ke-X").
+- Tulis **3 varian hook** (kontra-intuitif, cerita, angka mengejutkan). Pilih satu bersama pemilik repo.
+- Tidak ada ajakan subscribe atau sponsor di 60 detik pertama.
 
-### 4. Twist / sisi lain (9:00–11:00)
-- Konsekuensi yang tidak terduga atau hambatan realistis. Video tidak boleh terlalu utopis.
+### 2. Aturan skenario + re-hook (0:25–1:15)
+- Aturan dunia baru dalam 2–3 kalimat. Satu fakta pembanding `[S#]`, jangan lebih; jangan tumpuk angka di sini.
+- Re-hook: jelaskan kenapa ini penting sekarang dan apa yang akan dilihat berikutnya.
 
-### 5. Penutup (11:00–12:00)
-- Refleksi singkat: apa yang bisa dilakukan warga biasa.
-- Pertanyaan pancingan komentar (juga dipakai untuk pinned comment).
+### 3. Babak bertahap (1:15–±60% durasi): 5–7 babak
+Misalnya: Hari 1 → Minggu 1 → Bulan 1 → Tahun 1 → 10 Tahun. Setiap babak:
+- Apa yang **kamu** alami langsung (dompet, pekerjaan, keluarga, lingkungan), dengan satu detail kecil yang relate.
+- Satu fakta atau angka jangkar `[S#]`.
+- **Payoff kecil** (jawaban atas pertanyaan sebelumnya) **dan satu pertanyaan baru** di akhir babak.
+- Re-hook tiap 30–60 detik: kalimat pendek yang menjanjikan sesuatu di depan ("dan di sini mulai tidak sesederhana itu").
+- Urutkan babak dari yang kuat ke yang paling kuat; simpan fakta terbaik untuk menjelang akhir.
+
+### 4. Twist / sisi lain (±60%–85% durasi)
+- Konsekuensi tak terduga atau hambatan realistis. Video tidak boleh terlalu utopis.
+- Bayangannya sudah disebut di hook; di sini dibayar tuntas.
+- Disarankan 2 twist kecil, bukan satu twist besar di ujung.
+
+### 5. Klimaks + penutup (±85%–100%)
+- Bayar janji hook (jawaban utama) dalam 1–2 kalimat jelas.
+- **Pancingan komentar ringan** (juga untuk pinned comment): pilihan A/B atau pengalaman pribadi yang bisa dijawab dalam satu kalimat. Netral; jangan memihak partai atau tokoh.
+- **Teaser video berikutnya** (binge loop): buka satu pertanyaan baru yang dijawab di video lain. Tanpa "kesimpulannya" dan tanpa "terima kasih sudah menonton".
+
+## Ritme visual (untuk storyboard)
+- Ganti visual atau audio tiap 4–8 detik (ganti klip, zoom/punch-in dari kode, kartu angka, pill teks, SFX). Cue visual minimal tiap 10 detik.
+- Klip Flow boleh 6–10 detik, tapi di dalamnya dipecah dengan overlay atau zoom sesuai ritme di atas.
+- Tiap paragraf ditandai perkiraan detiknya, supaya durasi klip dipesan pas (selisih ideal 0–1 dtk dari narasi).
 
 ## Format penulisan
-- Paragraf pendek, satu paragraf = satu tarikan napas narator.
-- Tandai sumber dengan `[S1]`, `[S2]` sesuai `riset.md`. Tanda ini dihapus otomatis sebelum masuk TTS.
+- Paragraf pendek, satu paragraf = satu tarikan napas narator. Tulis dengan format: `## Babak: ...` lalu paragraf, dan di akhir paragraf `(±N dtk)`.
+- Tandai sumber dengan `[S1]`, `[S2]` sesuai `riset.md`; dihapus sebelum masuk TTS.
 - Angka ditulis seperti diucapkan.
-- Tandai pergantian babak dengan heading `## Babak: ...` supaya mudah dipecah jadi adegan.
+- Bahasa percakapan: kalimat pendek, kosakata sederhana, kalimat aktif.
+
+## Pemeriksaan sebelum minta persetujuan
+- [ ] 3 judul + ide thumbnail + janji video tertulis
+- [ ] 3 varian hook; hook memberi nilai dalam 3 detik pertama dan membuka pertanyaan
+- [ ] Peta open loop: tiap pertanyaan terjawab
+- [ ] Re-hook minimal tiap 60 detik; tidak ada bagian >60 detik tanpa fakta atau perubahan
+- [ ] Twist tidak hanya di menit terakhir
+- [ ] Penutup: payoff + pancingan ringan + teaser, tanpa kesimpulan formal
+- [ ] Jumlah kata sesuai target; angka punya sumber
 
 ## Contoh naskah terbaik
-(Diisi setelah video pertama selesai. Contoh nyata membuat gaya antar video jauh lebih konsisten.)
+(Diisi setelah video yang dirilis punya grafik retensi bagus. Contoh nyata membuat gaya antar video jauh lebih konsisten.)
