@@ -1,0 +1,23 @@
+{
+  "fps": 30,
+  "akhir": 130.04,
+  "catatan": "Awal tiap klip = kata pertama segmennya dikurangi 0,3 dtk. Klip dipercepat/diperlambat paling banyak 0,9x-1,15x, sisanya dipotong atau diam di frame terakhir.",
+  "klip": [
+    {"k": "K01", "mulai": 0.00},
+    {"k": "K02", "mulai": 9.42},
+    {"k": "K03", "mulai": 15.26},
+    {"k": "K04", "mulai": 23.58},
+    {"k": "K05", "mulai": 34.24},
+    {"k": "K06", "mulai": 37.88},
+    {"k": "K07", "mulai": 48.44},
+    {"k": "K08", "mulai": 53.26},
+    {"k": "K09", "mulai": 64.32},
+    {"k": "K10", "mulai": 76.24},
+    {"k": "K11", "mulai": 82.46},
+    {"k": "K12", "mulai": 91.98},
+    {"k": "K13", "mulai": 97.30},
+    {"k": "K14", "mulai": 107.70},
+    {"k": "K15", "mulai": 111.80},
+    {"k": "K16", "mulai": 122.46}
+  ]
+}

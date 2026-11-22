@@ -4,3 +4,6 @@ out/
 videos/*/narasi*.wav
 videos/*/potongan/
 .DS_Store
+narasi*.mp3
+narasi-norm.wav
+base.mp4
