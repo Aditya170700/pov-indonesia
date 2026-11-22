@@ -40,6 +40,13 @@ Misalnya: Hari 1 → Minggu 1 → Bulan 1 → Tahun 1 → 10 Tahun. Setiap babak
 - **Pancingan komentar ringan** (juga untuk pinned comment): pilihan A/B atau pengalaman pribadi yang bisa dijawab dalam satu kalimat. Netral; jangan memihak partai atau tokoh.
 - **Teaser video berikutnya** (binge loop): buka satu pertanyaan baru yang dijawab di video lain. Tanpa "kesimpulannya" dan tanpa "terima kasih sudah menonton".
 
+## Humor dan pembanding relatable
+- Setelah angka besar, beri **pembanding** yang dikenal penonton (mis. "uang segitu setara N mangkok mie ayam untuk tiap orang Indonesia"). Boleh sarkas ringan, satu momen per babak, dan berfungsi sebagai pemecah ritme.
+- Setiap pembanding adalah klaim faktual: input (harga, jumlah penduduk, dsb.) harus punya sumber dan tanggal di `riset.md`, tabel **Pembanding**, lengkap dengan rumus. Hitungan dijalankan lewat kode, bukan perkiraan. Tulis hasil dibulatkan dan sebut "kira-kira".
+- Utamakan pembanding yang awet (biaya bangun puskesmas atau sekolah, harga tol per km, gaji guru per tahun, harga mie ayam) daripada yang cepat basi (nilai pasar pemain). Jangan menggambar atau menampilkan tokoh nyata.
+- Sarkasme diarahkan ke sistem dan kebijakan, bukan ke individu, suku, atau agama. Humor tidak boleh membuat korupsi atau korbannya terasa remeh.
+- Angka hasil hitungan yang tampil di layar (kartu hitungan) harus sama persis dengan narasi.
+
 ## Ritme visual (untuk storyboard)
 - Ganti visual atau audio tiap 4–8 detik (ganti klip, zoom/punch-in dari kode, kartu angka, pill teks, SFX). Cue visual minimal tiap 10 detik.
 - Klip Flow boleh 6–10 detik, tapi di dalamnya dipecah dengan overlay atau zoom sesuai ritme di atas.
@@ -58,6 +65,7 @@ Misalnya: Hari 1 → Minggu 1 → Bulan 1 → Tahun 1 → 10 Tahun. Setiap babak
 - [ ] Re-hook minimal tiap 60 detik; tidak ada bagian >60 detik tanpa fakta atau perubahan
 - [ ] Twist tidak hanya di menit terakhir
 - [ ] Penutup: payoff + pancingan ringan + teaser, tanpa kesimpulan formal
+- [ ] Pembanding relatable punya sumber, rumus, dan hasil hitung kode
 - [ ] Jumlah kata sesuai target; angka punya sumber
 
 ## Contoh naskah terbaik

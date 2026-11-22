@@ -33,6 +33,7 @@
 3. Kritik diarahkan ke sistem dan kebijakan. Jangan menuduh orang tertentu tanpa putusan pengadilan atau sumber kredibel.
 4. Tidak memihak atau menyerang partai/kandidat tertentu. Tidak menyinggung SARA.
 5. Angka di layar harus sama dengan angka di narasi.
+   - Pembanding humor ("setara N mangkok mie ayam") juga klaim faktual: input bersumber, rumus dicatat di `riset.md`, hasil dihitung lewat kode. Sarkasme ke sistem, bukan ke individu, suku, atau agama.
 6. Saat upload, aktifkan label konten AI (audio/visual sintetis).
 
 ## Alur produksi per video
