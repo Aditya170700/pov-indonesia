@@ -1,0 +1,11 @@
+{
+  "fps": 30,
+  "akhir": 0,
+  "catatan": "Isi 'mulai' tiap klip = detik kata pertama segmennya dikurangi 0,3 (lihat kata.json). 'akhir' = akhir narasi + ±0,9 dtk.",
+  "klip": [
+    {
+      "k": "K01",
+      "mulai": 0.0
+    }
+  ]
+}

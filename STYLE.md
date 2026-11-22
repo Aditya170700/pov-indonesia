@@ -61,3 +61,6 @@ Dipakai persis di tiap prompt (lihat `videos/testing/flow-prompts.md`): round of
 
 ## Resolusi klip
 - Generate klip Flow di 360p, upscale ke 720p lewat Flow, lalu `rakit.py` menaikkan ke 1080p (lanczos). Cukup tajam untuk gaya stickman. Teks, angka, dan subtitle dirender langsung di 1080p dari kode.
+
+## Pakai ulang klip
+- Untuk video panjang, satu klip Flow (maks. 10 dtk) boleh dipakai di dua slot narasi yang berdekatan: slot kedua memakai punch-in 1,35x dan mulai dari detik ±3 (`timeline.json`: `ss`, `zoom`, `cx`, `cy`). Rencanakan klip yang bisa dipakai ulang dengan cara menempatkan Wowo dan objek utama di tengah frame.

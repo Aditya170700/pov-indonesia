@@ -1,0 +1,1310 @@
+[
+  {
+    "id": 1,
+    "babak": "Hook",
+    "klip": "K01",
+    "teks": "Coba bayangin, di Indonesia tidak ada korupsi. Apakah akan jauh lebih maju dari Singapura? Atau malah bisa mengalahkan Amerika?",
+    "estimasi_dtk": 8.1,
+    "visual": "A small cozy bedroom at dawn: warm golden light through the window, floating dust motes, soft volumetric shafts, a glowing city skyline visible outside.",
+    "maskot": "Wowo mengangkat telunjuk (peringatan)",
+    "grafis": "Pill judul 'POV: Indonesia Tanpa Korupsi' di awal; pill 'Singapura? Amerika?' sekitar detik 4-8.",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 2,
+    "babak": "Hook",
+    "klip": "K01",
+    "teks": "Semuanya akan terjawab di akhir video. Tapi hati-hati. Jawabannya bukan yang kamu kira.",
+    "estimasi_dtk": 5.6,
+    "visual": "Pakai ulang K01 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo mengangkat telunjuk (peringatan)",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 3,
+    "babak": "Hook",
+    "klip": "K02",
+    "teks": "Dan ada satu fakta menjelang akhir yang bikin gambaran ini jadi jauh lebih rumit.",
+    "estimasi_dtk": 6.0,
+    "visual": "A long empty corridor made of floating glowing paper sheets at night, deep navy background, a distant bright door at the far end.",
+    "maskot": "Wowo menunjuk / ragu",
+    "grafis": "Tidak ada (jeda napas).",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 4,
+    "babak": "Aturan skenario",
+    "klip": "K03",
+    "teks": "Aturannya sederhana. Besok pagi, di Indonesia yang sama persis, tidak ada satu rupiah pun uang negara yang bocor.",
+    "estimasi_dtk": 7.7,
+    "visual": "A bright, clean, transparent government-office hall with pale blue and cream palette, glass counters, soft daylight, tidy queue lines on the floor.",
+    "maskot": "Wowo senang / jempol",
+    "grafis": "Kartu aturan (pill): 'Tidak ada suap, mark-up, proyek fiktif, uang pelicin'; kartu 'Catatan: korupsi bukan satu-satunya penyebab' sekitar akhir.",
+    "pakai_ulang": false,
+    "sumber": [
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 5,
+    "babak": "Aturan skenario",
+    "klip": "K03",
+    "teks": "Tidak ada mark-up, tidak ada proyek fiktif, tidak ada uang pelicin. Satu hal sebelum mulai. Korupsi bukan satu-satunya alasan kenapa kita masih tertinggal.",
+    "estimasi_dtk": 9.9,
+    "visual": "Pakai ulang K03 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo senang / jempol",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 6,
+    "babak": "Aturan skenario",
+    "klip": "K04",
+    "teks": "Jadi di video ini, kalau ada angka yang kuhitung, aku akan bilang jelas mana yang fakta, dan mana yang simulasi.",
+    "estimasi_dtk": 8.6,
+    "visual": "A clean white studio with a navy chalkboard and a simple desk, soft top light, minimal props.",
+    "maskot": "Wowo menunjuk / bersiap",
+    "grafis": "Pill 'FAKTA' vs 'SIMULASI' (kode); kalender 'HARI KE-1' di akhir.",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 7,
+    "babak": "Aturan skenario",
+    "klip": "K04",
+    "teks": "Sekarang, kita mulai dari hari pertama.",
+    "estimasi_dtk": 2.6,
+    "visual": "Pakai ulang K04 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo menunjuk / bersiap",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 8,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K05",
+    "teks": "Hari pertama, kamu belum melihat jalan baru. Tapi uangnya sudah ada.",
+    "estimasi_dtk": 4.7,
+    "visual": "Dawn city street with golden light, a giant translucent bag of glowing coins hanging in the sky like a moon above the buildings.",
+    "maskot": "Wowo lega",
+    "grafis": "Kartu angka: Rp279,9 triliun (potensi kerugian negara 2024, sumber ICW) menghitung naik; kartu 364 kasus.",
+    "pakai_ulang": false,
+    "sumber": [
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 9,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K05",
+    "teks": "Indonesia Corruption Watch mencatat, kasus korupsi yang masuk penyidikan tahun dua ribu dua puluh empat berpotensi merugikan negara dua ratus tujuh puluh sembilan koma sembilan triliun rupiah.",
+    "estimasi_dtk": 11.6,
+    "visual": "Pakai ulang K05 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo lega",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 10,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K06",
+    "teks": "Angka segede itu susah dibayangin. Jadi kita pecah.",
+    "estimasi_dtk": 3.4,
+    "visual": "A cheerful street-food stall at dusk, warm lantern light, steam rising, wooden counter with simple bowls (no text, no signs).",
+    "maskot": "Wowo kagum / makan",
+    "grafis": "Kartu hitungan: Rp279,9 T ÷ Rp10.000 = hampir 28 miliar mangkok (asumsi harga Rp10.000/mangkok) [P1].",
+    "pakai_ulang": false,
+    "sumber": [
+      "P1"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 11,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K06",
+    "teks": "Kalau uang itu dibelikan mie ayam, harga sepuluh ribu rupiah semangkok, hasilnya hampir dua puluh delapan miliar mangkok.",
+    "estimasi_dtk": 7.7,
+    "visual": "Pakai ulang K06 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo kagum / makan",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "P1"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 12,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K07",
+    "teks": "Dibagi rata ke seluruh penduduk Indonesia, setiap orang kebagian sembilan puluh delapan mangkok mie ayam. Gratis. Pakai bakso juga boleh. Tapi tunggu dulu.",
+    "estimasi_dtk": 9.9,
+    "visual": "A wide public square at golden hour with a crowd of gray stick figures, each holding a bowl of noodles.",
+    "maskot": "Wowo berpikir / waspada",
+    "grafis": "Kartu: 98 mangkok per orang [P2, S11]; lalu bar 96,85% (satu kasus timah) vs 3,15% [S3].",
+    "pakai_ulang": false,
+    "sumber": [
+      "P2",
+      "S11",
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 13,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K07",
+    "teks": "Aku harus jujur. Hampir semua angka itu, sembilan puluh enam koma delapan lima persen, berasal dari satu kasus tata niaga timah.",
+    "estimasi_dtk": 9.0,
+    "visual": "Pakai ulang K07 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo berpikir / waspada",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "P2",
+      "S11",
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 14,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K08",
+    "teks": "Di luar kasus itu, kerugian yang terungkap tahun itu cuma delapan koma delapan triliun. Dan ini baru yang ketahuan.",
+    "estimasi_dtk": 8.1,
+    "visual": "A dim evidence room with navy walls and a spotlight on a table, a cutaway map icon of an island shape on the wall (no text).",
+    "maskot": "Wowo curiga / hati-hati",
+    "grafis": "Kartu angka: Rp8,8 T di luar satu kasus [S3]; pill 'baru yang ketahuan'.",
+    "pakai_ulang": false,
+    "sumber": [
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 15,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K08",
+    "teks": "Jadi mari pakai angka dua ratus tujuh puluh sembilan koma sembilan triliun sebagai bayangan, bukan ramalan.",
+    "estimasi_dtk": 6.9,
+    "visual": "Pakai ulang K08 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo curiga / hati-hati",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 16,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K09",
+    "teks": "Itu setara kira-kira delapan persen dari seluruh belanja negara tahun dua ribu dua puluh empat. Atau satu koma empat kali anggaran kesehatan nasional.",
+    "estimasi_dtk": 9.9,
+    "visual": "A bright stage with two scales side by side: a giant balance in a navy hall, soft spotlights.",
+    "maskot": "Wowo kaget",
+    "grafis": "Kartu: 8% belanja negara 2024; 1,4x anggaran kesehatan [S6, P4, P5]; kartu 4,78% uang kembali [S5].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S6",
+      "P4",
+      "P5",
+      "S5"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 17,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K09",
+    "teks": "Satu tahun. Dan yang bikin lebih nyesek, pengembalian uang negara dari kasus korupsi cuma empat koma tujuh delapan persen. Sisanya? Tidak balik.",
+    "estimasi_dtk": 9.4,
+    "visual": "Pakai ulang K09 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo kaget",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S6",
+      "P4",
+      "P5",
+      "S5"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 18,
+    "babak": "Babak 1: Hari 1, uang yang tidak bocor",
+    "klip": "K10",
+    "teks": "Sekarang bayangin uang itu tidak pernah hilang. Lalu mau dipakai ke mana? Jawabannya ada di jalan.",
+    "estimasi_dtk": 6.9,
+    "visual": "A road at sunrise, half old and cracked, half smooth fresh asphalt, golden light, a long horizon.",
+    "maskot": "Wowo berjalan optimis",
+    "grafis": "Tidak ada (transisi); kalender 'TAHUN KE-1' di akhir.",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 19,
+    "babak": "Babak 1b: Hari 7, ke mana uangnya pergi",
+    "klip": "K11",
+    "teks": "Hari ketujuh, bayangin kamu duduk di ruang rapat anggaran.",
+    "estimasi_dtk": 3.9,
+    "visual": "A tidy budget-meeting room: navy walls, a round table with simple icon cards, a large wall screen showing abstract shapes only.",
+    "maskot": "Wowo menunjuk (tiga pilihan)",
+    "grafis": "Kalender 'HARI KE-7'; tiga ikon pill: PENDIDIKAN, KESEHATAN, BANSOS.",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 20,
+    "babak": "Babak 1b: Hari 7, ke mana uangnya pergi",
+    "klip": "K11",
+    "teks": "Pertanyaannya cuma satu: uang dua ratus tujuh puluh sembilan koma sembilan triliun ini mau dipakai untuk apa? Mari lihat pilihannya.",
+    "estimasi_dtk": 8.6,
+    "visual": "Pakai ulang K11 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo menunjuk (tiga pilihan)",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 21,
+    "babak": "Babak 1b: Hari 7, ke mana uangnya pergi",
+    "klip": "K12",
+    "teks": "Anggaran pendidikan nasional tahun dua ribu dua puluh empat lima ratus lima puluh koma empat triliun.",
+    "estimasi_dtk": 6.9,
+    "visual": "A clean infographic-like studio with three tall bars made of stacked coins, glowing amber light on navy.",
+    "maskot": "Wowo menghitung",
+    "grafis": "Tiga batang kartu angka: Pendidikan Rp550,4 T, Perlindungan sosial Rp455,9 T, Kesehatan Rp194,4 T (APBN 2024) [S6].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S6"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 22,
+    "babak": "Babak 1b: Hari 7, ke mana uangnya pergi",
+    "klip": "K12",
+    "teks": "Anggaran perlindungan sosial empat ratus lima puluh lima koma sembilan triliun. Anggaran kesehatan seratus sembilan puluh empat koma empat triliun.",
+    "estimasi_dtk": 8.6,
+    "visual": "Pakai ulang K12 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo menghitung",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S6"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 23,
+    "babak": "Babak 1b: Hari 7, ke mana uangnya pergi",
+    "klip": "K13",
+    "teks": "Artinya, uang yang berpotensi bocor setahun itu setara kira-kira separuh anggaran pendidikan. Atau enam puluh satu persen anggaran perlindungan sosial.",
+    "estimasi_dtk": 8.6,
+    "visual": "A school yard with a cracked building on one side and a bright new building on the other, afternoon light.",
+    "maskot": "Wowo bangga",
+    "grafis": "Kartu: ±51% anggaran pendidikan dan 61% anggaran perlindungan sosial [S6, S3].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S6",
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 24,
+    "babak": "Babak 1b: Hari 7, ke mana uangnya pergi",
+    "klip": "K13",
+    "teks": "Jadi kalau kamu merasa, katanya anggaran kita besar tapi kok sekolah masih rusak, mungkin sebagian jawabannya ada di sini.",
+    "estimasi_dtk": 8.1,
+    "visual": "Pakai ulang K13 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo bangga",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S6",
+      "S3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 25,
+    "babak": "Babak 1b: Hari 7, ke mana uangnya pergi",
+    "klip": "K14",
+    "teks": "Dan ini bukan cuma soal angka besar di Jakarta.",
+    "estimasi_dtk": 3.9,
+    "visual": "A cross-section view of a country shown as a simple miniature map with a big capital city, small villages dotted outward, soft navy background.",
+    "maskot": "Wowo prihatin",
+    "grafis": "Tiga kartu angka: Desa 77 kasus, Kesehatan 39, Pendidikan 25 (ICW 2024) [S9].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S9"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 26,
+    "babak": "Babak 1b: Hari 7, ke mana uangnya pergi",
+    "klip": "K14",
+    "teks": "ICW mencatat, sektor dengan kasus korupsi terbanyak tahun dua ribu dua puluh empat adalah desa, tujuh puluh tujuh kasus. Kesehatan tiga puluh sembilan kasus.",
+    "estimasi_dtk": 10.3,
+    "visual": "Pakai ulang K14 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo prihatin",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S9"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 27,
+    "babak": "Babak 1b: Hari 7, ke mana uangnya pergi",
+    "klip": "K15",
+    "teks": "Pendidikan dua puluh lima kasus. Artinya kebocoran terjadi justru di tempat yang paling dekat dengan hidupmu.",
+    "estimasi_dtk": 6.9,
+    "visual": "A small village at golden hour: dusty road, a clinic, a school with a tiny flag-free pole, rice fields beyond.",
+    "maskot": "Wowo lega",
+    "grafis": "Pill: 'Kebocoran terjadi paling dekat dengan hidupmu'.",
+    "pakai_ulang": false,
+    "sumber": [
+      "S9"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 28,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K16",
+    "teks": "Biaya bangun jalan tol rata-rata sekitar seratus empat puluh sampai dua ratus miliar rupiah per kilometer.",
+    "estimasi_dtk": 6.9,
+    "visual": "A construction site at sunrise: dust, cranes, orange earth, a half-built highway stretching in the distance.",
+    "maskot": "Wowo menghitung",
+    "grafis": "Kartu: Rp140–200 M per km [S16]; kartu Yogya–Bawen 75 km, Rp10,65 T, ±Rp141,8 M/km [S17].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S16",
+      "S17"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 29,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K16",
+    "teks": "Tol Yogyakarta ke Bawen, tujuh puluh lima kilometer, biaya konstruksinya sepuluh koma enam lima triliun. Kira-kira seratus empat puluh satu miliar per kilometer.",
+    "estimasi_dtk": 9.9,
+    "visual": "Pakai ulang K16 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo menghitung",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S16",
+      "S17"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 30,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K17",
+    "teks": "Kalau dua ratus tujuh puluh sembilan koma sembilan triliun tadi dibelikan tol, kamu dapat hampir dua ribu kilometer.",
+    "estimasi_dtk": 7.7,
+    "visual": "A very long highway at golden hour, aerial view, thin line of cars (simple shapes), warm glow.",
+    "maskot": "Wowo kagum",
+    "grafis": "Kartu: ±1.974 km tol, 1,7x Trans Jawa [P3, S8]; dua batang panjang 1.974 vs 1.167 km.",
+    "pakai_ulang": false,
+    "sumber": [
+      "P3",
+      "S8"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 31,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K17",
+    "teks": "Kira-kira satu koma tujuh kali panjang Tol Trans Jawa. Dari satu tahun kebocoran saja.",
+    "estimasi_dtk": 6.0,
+    "visual": "Pakai ulang K17 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo kagum",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "P3",
+      "S8"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 32,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K18",
+    "teks": "Panjang rencana Tol Trans Jawa dari Merak sampai Banyuwangi sekitar seribu seratus enam puluh tujuh kilometer.",
+    "estimasi_dtk": 6.9,
+    "visual": "A map-like island seen from above, with a bright red line crossing the whole island from west to east, golden light.",
+    "maskot": "Wowo takjub",
+    "grafis": "Kartu: Trans Jawa ±1.167 km; sisa lebih dari 800 km [S8, P3].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S8",
+      "P3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 33,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K18",
+    "teks": "Jadi kebocoran satu tahun cukup untuk membangun jalan sepanjang itu lagi, dan masih sisa lebih dari delapan ratus kilometer.",
+    "estimasi_dtk": 8.1,
+    "visual": "Pakai ulang K18 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo takjub",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S8",
+      "P3"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 34,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K19",
+    "teks": "Bayangin mudik tanpa macet berjam-jam di satu titik. Tapi masalah kita lebih dalam dari sekadar uang yang dicuri.",
+    "estimasi_dtk": 7.7,
+    "visual": "A congested toll gate scene at sunset, simple cars and trucks, red tail lights, then the same gate empty and smooth.",
+    "maskot": "Wowo penasaran",
+    "grafis": "Kartu ICOR: definisi singkat 'modal per +1 pertumbuhan' (pill) [S12].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S12"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 35,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K19",
+    "teks": "Ada satu angka yang jarang dibahas, namanya ICOR. Gampangnya, berapa banyak modal yang kita butuhkan untuk menambah satu unit pertumbuhan ekonomi.",
+    "estimasi_dtk": 9.0,
+    "visual": "Pakai ulang K19 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo penasaran",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S12"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 36,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K20",
+    "teks": "Makin kecil makin efisien. ICOR Indonesia sekitar enam koma tiga. Malaysia empat koma lima. Vietnam empat koma enam.",
+    "estimasi_dtk": 7.7,
+    "visual": "A factory floor of simple machines, three conveyor lines, navy and teal palette.",
+    "maskot": "Wowo bingung / kaget",
+    "grafis": "Tiga bar ICOR: Indonesia ±6,3, Malaysia 4,5, Vietnam 4,6 [S12].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S12"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 37,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K20",
+    "teks": "Artinya, untuk hasil yang sama, kita menghabiskan modal jauh lebih banyak. Dan para ahli menyebut korupsi sebagai salah satu faktor utamanya.",
+    "estimasi_dtk": 9.0,
+    "visual": "Pakai ulang K20 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo bingung / kaget",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S12"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 38,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K21",
+    "teks": "Salah satu, bukan satu-satunya. Bahkan Dewan Ekonomi Nasional pernah menyebut inefisiensi sekitar tiga puluh persen dari belanja negara, atau sekitar seribu triliun rupiah.",
+    "estimasi_dtk": 9.9,
+    "visual": "A large accounting hall: tall ledgers, glowing coin pillars, a hazy mist leaking coins through cracks in the floor.",
+    "maskot": "Wowo berpikir",
+    "grafis": "Kartu: Inefisiensi ±30% / ±Rp1.000 T (DEN) dengan catatan 'inefisiensi ≠ semuanya korupsi' [S13].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S13"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 39,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K21",
+    "teks": "Perlu dicatat, itu inefisiensi, bukan semuanya korupsi. Tapi coba bayangin kalau separuhnya saja bisa dirapikan.",
+    "estimasi_dtk": 6.4,
+    "visual": "Pakai ulang K21 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo berpikir",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S13"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 40,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K22",
+    "teks": "Jadi di tahun pertama, kamu belum tentu langsung merasakan jalan semulus Korea.",
+    "estimasi_dtk": 5.1,
+    "visual": "A modern highway interchange at golden hour, smooth roads curving, bright blue sky.",
+    "maskot": "Wowo menunjuk (transisi ke bansos)",
+    "grafis": "Pill: 'Bansos'.",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 41,
+    "babak": "Babak 2: Tahun 1, jalan dan infrastruktur",
+    "klip": "K22",
+    "teks": "Tapi ada satu hal yang berubah, dan itu menyangkut mereka yang paling butuh. Bansos.",
+    "estimasi_dtk": 6.0,
+    "visual": "Pakai ulang K22 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo menunjuk (transisi ke bansos)",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 42,
+    "babak": "Babak 3: Bulan 6, bansos yang sampai",
+    "klip": "K23",
+    "teks": "Setiap tahun, pemerintah menyalurkan subsidi dan bantuan sosial sekitar lima ratus triliun rupiah. Menteri Sosial sendiri mengakui, uang segitu belum sepenuhnya tepat sasaran.",
+    "estimasi_dtk": 9.9,
+    "visual": "A warm village home interior: wooden table, simple bowl, dim bulb, evening light.",
+    "maskot": "Wowo bingung",
+    "grafis": "Kartu: ±Rp500 T subsidi+bansos belum tepat sasaran (Mensos, Nov 2025) [S14].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S14"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 43,
+    "babak": "Babak 3: Bulan 6, bansos yang sampai",
+    "klip": "K24",
+    "teks": "Evaluasi Dewan Ekonomi Nasional menyebut sekitar empat puluh lima persen penerima PKH tahun dua ribu dua puluh lima diduga sudah tidak memenuhi kriteria.",
+    "estimasi_dtk": 9.9,
+    "visual": "A bright social-aid distribution hall with rows of simple envelopes on a conveyor belt, soft light.",
+    "maskot": "Wowo waspada",
+    "grafis": "Kartu: ±45% penerima PKH 2025 diduga tidak memenuhi kriteria (evaluasi DEN) [S15]; catatan 'masalah akurasi data'.",
+    "pakai_ulang": false,
+    "sumber": [
+      "S15"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 44,
+    "babak": "Babak 3: Bulan 6, bansos yang sampai",
+    "klip": "K24",
+    "teks": "Artinya, hampir separuh amplop mungkin sampai ke orang yang sebenarnya tidak lagi butuh. Aku harus hati-hati di sini.",
+    "estimasi_dtk": 7.7,
+    "visual": "Pakai ulang K24 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo waspada",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S15"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 45,
+    "babak": "Babak 3: Bulan 6, bansos yang sampai",
+    "klip": "K25",
+    "teks": "Ini masalah akurasi data, bukan otomatis korupsi. Tapi di dunia tanpa korupsi, data yang bersih dan penyalur yang jujur itu satu paket.",
+    "estimasi_dtk": 9.4,
+    "visual": "A clean data room: glowing grid of tiny dots (households) and a clean ledger, teal and navy palette.",
+    "maskot": "Wowo senang",
+    "grafis": "Pill: 'Data bersih + penyalur jujur'; catatan 'dunia tanpa korupsi: tidak ada nama fiktif'.",
+    "pakai_ulang": false,
+    "sumber": [
+      "S14",
+      "S15"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 46,
+    "babak": "Babak 3: Bulan 6, bansos yang sampai",
+    "klip": "K25",
+    "teks": "Tidak ada orang yang dicoret demi titipan, tidak ada nama fiktif. Bayangin ibu di desa yang namanya akhirnya masuk daftar.",
+    "estimasi_dtk": 8.6,
+    "visual": "Pakai ulang K25 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo senang",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S14",
+      "S15"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 47,
+    "babak": "Babak 3: Bulan 6, bansos yang sampai",
+    "klip": "K26",
+    "teks": "Bantuannya utuh sampai ke tangan. Lima ratus triliun itu mulai terasa bedanya. Tapi dari mana uang sebanyak itu berasal? Dari kantongmu. Dari pajak.",
+    "estimasi_dtk": 9.9,
+    "visual": "A small village house at sunset with a full table of food and warm light.",
+    "maskot": "Wowo sadar",
+    "grafis": "Pill: 'Dari mana uangnya? Pajak.'",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 48,
+    "babak": "Babak 4: Tahun 3, pajak yang kembali",
+    "klip": "K27",
+    "teks": "Rasio pajak Indonesia hanya dua belas persen dari ekonomi. Rata-rata negara Asia Pasifik sembilan belas koma enam persen.",
+    "estimasi_dtk": 7.7,
+    "visual": "A split-screen-like studio: Indonesia on the left side as a plain gray column, Denmark on the right as a tall teal column, soft studio light.",
+    "maskot": "Wowo terkejut",
+    "grafis": "Tiga batang kartu: Indonesia 12%, Asia-Pasifik 19,6%, Denmark 45,2% [S10, S7].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S10",
+      "S7"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 49,
+    "babak": "Babak 4: Tahun 3, pajak yang kembali",
+    "klip": "K27",
+    "teks": "Denmark empat puluh lima koma dua persen, tertinggi di antara negara-negara OECD. Jadi Denmark memungut hampir empat kali lipat dari kita.",
+    "estimasi_dtk": 9.0,
+    "visual": "Pakai ulang K27 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo terkejut",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S10",
+      "S7"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 50,
+    "babak": "Babak 4: Tahun 3, pajak yang kembali",
+    "klip": "K28",
+    "teks": "Kenapa warganya tidak ribut? Karena mereka tahu uang itu kembali.",
+    "estimasi_dtk": 4.3,
+    "visual": "A calm, clean Nordic-style town square, pastel colors, bicycles, soft cool daylight, simple shapes.",
+    "maskot": "Wowo kagum",
+    "grafis": "Kartu: Denmark skor CPI 89, peringkat 1 dunia [S2].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S2"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 51,
+    "babak": "Babak 4: Tahun 3, pajak yang kembali",
+    "klip": "K28",
+    "teks": "Dan itu terlihat dari skor mereka, delapan puluh sembilan dari seratus, peringkat satu dunia dalam indeks persepsi korupsi.",
+    "estimasi_dtk": 7.7,
+    "visual": "Pakai ulang K28 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo kagum",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S2"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 52,
+    "babak": "Babak 4: Tahun 3, pajak yang kembali",
+    "klip": "K29",
+    "teks": "Indonesia tiga puluh empat, peringkat seratus sembilan. Aku tidak bilang pajak kita harus naik.",
+    "estimasi_dtk": 6.0,
+    "visual": "A bright town hall with a transparent glass box labeled by a lock icon; golden light.",
+    "maskot": "Wowo menjelaskan",
+    "grafis": "Kartu: Indonesia skor 34, peringkat 109 [S1]; pill 'Bukan berarti pajak harus naik'.",
+    "pakai_ulang": false,
+    "sumber": [
+      "S1"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 53,
+    "babak": "Babak 4: Tahun 3, pajak yang kembali",
+    "klip": "K29",
+    "teks": "Aku bilang, orang lebih rela membayar kalau percaya uangnya tidak bocor. Itu bayangan di dunia tanpa korupsi: bayar pajak tanpa merasa dirampok.",
+    "estimasi_dtk": 9.4,
+    "visual": "Pakai ulang K29 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo menjelaskan",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S1"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 54,
+    "babak": "Babak 4: Tahun 3, pajak yang kembali",
+    "klip": "K30",
+    "teks": "Lalu seperti apa hasilnya kalau uang itu kembali sepenuhnya, bukan dalam setahun, tapi dalam sepuluh tahun? Kita tidak perlu menebak.",
+    "estimasi_dtk": 8.6,
+    "visual": "A bright rooftop at sunrise overlooking three distinct city skylines in the distance: a compact tropical city, a Nordic harbor, an East-Asian metropolis.",
+    "maskot": "Wowo antusias",
+    "grafis": "Tiga pill negara: SINGAPURA, KOREA SELATAN, DENMARK.",
+    "pakai_ulang": false,
+    "sumber": [
+      "S2"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 55,
+    "babak": "Babak 4: Tahun 3, pajak yang kembali",
+    "klip": "K30",
+    "teks": "Sudah ada negara yang menjalaninya. Lihat tiga negara ini.",
+    "estimasi_dtk": 3.9,
+    "visual": "Pakai ulang K30 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo antusias",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S2"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 56,
+    "babak": "Babak 5: Tahun 10, hidup di negara yang tertata",
+    "klip": "K31",
+    "teks": "Singapura, skor delapan puluh empat, peringkat tiga dunia.",
+    "estimasi_dtk": 3.4,
+    "visual": "A tropical garden-city of tidy residential tower blocks, clean walkways, lush greenery, soft golden light, no signage.",
+    "maskot": "Wowo kagum",
+    "grafis": "Kartu: Singapura skor 84 (#3); 75,7% tinggal di flat HDB; 72,7% milik sendiri [S2, S23].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S2",
+      "S23"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 57,
+    "babak": "Babak 5: Tahun 10, hidup di negara yang tertata",
+    "klip": "K31",
+    "teks": "Tujuh puluh lima koma tujuh persen penduduknya tinggal di flat bangunan negara, dan tujuh puluh dua koma tujuh persen penduduk tinggal di flat yang mereka beli sendiri.",
+    "estimasi_dtk": 11.6,
+    "visual": "Pakai ulang K31 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo kagum",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S2",
+      "S23"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 58,
+    "babak": "Babak 5: Tahun 10, hidup di negara yang tertata",
+    "klip": "K32",
+    "teks": "Rumah murah yang benar-benar jadi milik warga. Hasil perencanaan puluhan tahun yang tidak bocor di tengah jalan. Korea Selatan, skor enam puluh tiga.",
+    "estimasi_dtk": 9.9,
+    "visual": "A neat residential estate at dusk, windows glowing, then a short flash-forward to an East-Asian metro station with gleaming trains.",
+    "maskot": "Wowo santai",
+    "grafis": "Kartu: Korea Selatan 56→63 (2012–2025) [S2, S24 mofo].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S2"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 59,
+    "babak": "Babak 5: Tahun 10, hidup di negara yang tertata",
+    "klip": "K32",
+    "teks": "Tahun dua ribu dua belas skor mereka lima puluh enam, sekarang enam puluh tiga.",
+    "estimasi_dtk": 6.0,
+    "visual": "Pakai ulang K32 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo santai",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S2"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 60,
+    "babak": "Babak 5: Tahun 10, hidup di negara yang tertata",
+    "klip": "K33",
+    "teks": "Transparency International menyebut reformasi, lembaga pengawas yang kuat, dan konsensus politik sebagai kuncinya.",
+    "estimasi_dtk": 5.6,
+    "visual": "A glowing underground metro station: wide platforms, clean tiles, trains arriving every few seconds, navy and teal palette.",
+    "maskot": "Wowo takjub",
+    "grafis": "Kartu: reformasi, lembaga pengawas, konsensus politik (pill) [S2]; angka 2,4 miliar penumpang metro Seoul/tahun [S26].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S2",
+      "S26"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 61,
+    "babak": "Babak 5: Tahun 10, hidup di negara yang tertata",
+    "klip": "K33",
+    "teks": "Hasilnya, kereta bawah tanah Seoul mengangkut sekitar dua koma empat miliar penumpang dalam satu tahun. Denmark, dengan skor delapan puluh sembilan.",
+    "estimasi_dtk": 9.0,
+    "visual": "Pakai ulang K33 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo takjub",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S2",
+      "S26"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 62,
+    "babak": "Babak 5: Tahun 10, hidup di negara yang tertata",
+    "klip": "K34",
+    "teks": "Di World Happiness Report dua ribu dua puluh enam, Denmark ada di peringkat tiga dunia, hanya di bawah Finlandia dan Islandia.",
+    "estimasi_dtk": 9.0,
+    "visual": "A cozy Nordic harbor town at dusk, warm window lights, calm water, bicycles parked.",
+    "maskot": "Wowo kagum",
+    "grafis": "Kartu: World Happiness Report 2026: Denmark #3 [S24]; pill 'pajak tertinggi, tapi merasa kembali'.",
+    "pakai_ulang": false,
+    "sumber": [
+      "S24",
+      "S7"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 63,
+    "babak": "Babak 5: Tahun 10, hidup di negara yang tertata",
+    "klip": "K34",
+    "teks": "Mereka juga memungut pajak tertinggi. Tapi warganya merasa uangnya kembali. Skor setinggi itu tidak datang sendiri. Korea naik pelan-pelan lewat reformasi dan pengawasan.",
+    "estimasi_dtk": 9.9,
+    "visual": "Pakai ulang K34 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo kagum",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S24",
+      "S7"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 64,
+    "babak": "Babak 5: Tahun 10, hidup di negara yang tertata",
+    "klip": "K35",
+    "teks": "Rata-rata dunia sendiri cuma empat puluh dua, dan kita masih di bawahnya. Nah, kalau kita bisa mulai dari nol hari ini, kapan kita menyusul?",
+    "estimasi_dtk": 10.3,
+    "visual": "A quiet transition scene: a long bridge from a tropical island to a distant glowing shore at twilight.",
+    "maskot": "Wowo bertekad",
+    "grafis": "Kartu: rata-rata dunia 42, Indonesia di bawahnya [S1].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S1"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 65,
+    "babak": "Twist 1: Berapa tahun untuk menyusul",
+    "klip": "K36",
+    "teks": "Oke. Sekarang bagian yang paling kutunggu-tunggu. Kita hitung pakai angka, bukan perasaan. Sekarang ke jawaban pertanyaan di awal.",
+    "estimasi_dtk": 7.7,
+    "visual": "A bright analyst's studio with a large floating blank chart canvas (icons only), navy backdrop.",
+    "maskot": "Wowo tercengang",
+    "grafis": "Tiga batang: Indonesia US$5.083, Amerika ±US$90 ribu, Singapura ±US$99 ribu [S19, S21].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S19",
+      "S21"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 66,
+    "babak": "Twist 1: Berapa tahun untuk menyusul",
+    "klip": "K36",
+    "teks": "Pendapatan per kapita Indonesia tahun dua ribu dua puluh lima sekitar lima ribu dolar. Singapura hampir seratus ribu dolar. Amerika sekitar sembilan puluh ribu.",
+    "estimasi_dtk": 10.3,
+    "visual": "Pakai ulang K36 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo tercengang",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S19",
+      "S21"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 67,
+    "babak": "Twist 1: Berapa tahun untuk menyusul",
+    "klip": "K37",
+    "teks": "Kita ada di belakang hampir delapan belas sampai dua puluh kali lipat.",
+    "estimasi_dtk": 5.1,
+    "visual": "A long track field with two runners: a slow turtle-pace Wowo and a distant ghost runner.",
+    "maskot": "Wowo berlari",
+    "grafis": "Kartu: jarak 18–20x; skenario sekarang: 126 tahun (Singapura), 146 tahun (AS) [Simulasi].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S19",
+      "S21",
+      "Simulasi"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 68,
+    "babak": "Twist 1: Berapa tahun untuk menyusul",
+    "klip": "K37",
+    "teks": "Kalau kita jalan seperti sekarang, tumbuh sekitar empat persen per kapita, dan mereka tumbuh dua persen, butuh seratus dua puluh enam tahun untuk menyusul Singapura.",
+    "estimasi_dtk": 10.7,
+    "visual": "Pakai ulang K37 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo berlari",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S19",
+      "S21",
+      "Simulasi"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 69,
+    "babak": "Twist 1: Berapa tahun untuk menyusul",
+    "klip": "K38",
+    "teks": "Seratus empat puluh enam tahun untuk Amerika. Sekarang skenario tanpa korupsi. Bayangin ICOR kita turun ke level Malaysia atau Vietnam, dengan investasi yang sama.",
+    "estimasi_dtk": 10.3,
+    "visual": "The same track field but with an upgrade: a glowing booster icon appears on the ground.",
+    "maskot": "Wowo semangat",
+    "grafis": "Kartu: 146 tahun untuk AS; skenario tanpa korupsi: ICOR ke Malaysia/Vietnam [Simulasi, S12].",
+    "pakai_ulang": false,
+    "sumber": [
+      "Simulasi",
+      "S12"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 70,
+    "babak": "Twist 1: Berapa tahun untuk menyusul",
+    "klip": "K39",
+    "teks": "Pertumbuhan naik jadi sekitar enam persen per kapita. Hasilnya, kita menyusul Singapura sekitar tujuh puluh tahun lagi, Amerika sekitar tujuh puluh lima tahun.",
+    "estimasi_dtk": 9.9,
+    "visual": "A big calendar wall with two timelines: a long dark one and a shorter bright one.",
+    "maskot": "Wowo menjelaskan",
+    "grafis": "Kartu hasil: Singapura ±70 th, AS ±75 th (skenario tanpa korupsi) vs 126/146 th (baseline); label SIMULASI SEDERHANA [Simulasi].",
+    "pakai_ulang": false,
+    "sumber": [
+      "Simulasi"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 71,
+    "babak": "Twist 1: Berapa tahun untuk menyusul",
+    "klip": "K39",
+    "teks": "Jadi jawabannya: tidak. Tanpa korupsi, Indonesia tidak otomatis mengalahkan Singapura atau Amerika. Tapi waktunya terpotong hampir separuh.",
+    "estimasi_dtk": 7.3,
+    "visual": "Pakai ulang K39 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo menjelaskan",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "Simulasi"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 72,
+    "babak": "Twist 1: Berapa tahun untuk menyusul",
+    "klip": "K40",
+    "teks": "Dan itu pun hitungan paling optimis, dengan pertumbuhan konstan selama tujuh puluh tahun yang hampir tidak pernah terjadi. Ini simulasi sederhana, bukan ramalan.",
+    "estimasi_dtk": 9.9,
+    "visual": "A dusky observatory with a telescope pointing at a far-away star icon.",
+    "maskot": "Wowo mengajak (komentar)",
+    "grafis": "Pill 'SIMULASI SEDERHANA: pertumbuhan konstan, ceteris paribus'; pill 'Asumsi mana yang terlalu optimis?'.",
+    "pakai_ulang": false,
+    "sumber": [
+      "Simulasi"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 73,
+    "babak": "Twist 1: Berapa tahun untuk menyusul",
+    "klip": "K40",
+    "teks": "Silakan debat di kolom komentar. Asumsi mana yang menurutmu terlalu optimis?",
+    "estimasi_dtk": 4.7,
+    "visual": "Pakai ulang K40 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo mengajak (komentar)",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "Simulasi"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 74,
+    "babak": "Twist 1: Berapa tahun untuk menyusul",
+    "klip": "K41",
+    "teks": "Tapi sebelum kamu menulis, ada satu fakta lagi yang bikin gambaran ini lebih rumit.",
+    "estimasi_dtk": 6.0,
+    "visual": "A moody dark room with a single warm lamp and a half-open door letting in cool blue light.",
+    "maskot": "Wowo penasaran",
+    "grafis": "Tidak ada (jeda).",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 75,
+    "babak": "Twist 2: Bahagia belum tentu nyaman",
+    "klip": "K42",
+    "teks": "Tahun dua ribu dua puluh enam, survei Ipsos di dua puluh sembilan negara menemukan sesuatu yang mengejutkan.",
+    "estimasi_dtk": 7.3,
+    "visual": "A warm lively night street market with lantern lights, colorful stalls (no signs), kids laughing, steam rising.",
+    "maskot": "Wowo kaget senang",
+    "grafis": "Kartu: Ipsos Happiness Index 2026: Indonesia 85% bahagia (rata-rata 29 negara 74%) [S25].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S25"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 76,
+    "babak": "Twist 2: Bahagia belum tentu nyaman",
+    "klip": "K42",
+    "teks": "Negara dengan persentase warga yang mengaku bahagia tertinggi adalah Indonesia. Delapan puluh lima persen. Rata-rata dua puluh sembilan negara, tujuh puluh empat persen.",
+    "estimasi_dtk": 9.9,
+    "visual": "Pakai ulang K42 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo kaget senang",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S25"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 77,
+    "babak": "Twist 2: Bahagia belum tentu nyaman",
+    "klip": "K43",
+    "teks": "Padahal di laporan lain, World Happiness Report, Singapura cuma peringkat tiga puluh enam dan Amerika dua puluh tiga. Bedanya, ukurannya lain.",
+    "estimasi_dtk": 9.0,
+    "visual": "Two bright stages side by side: a lively street scene on the left and a tidy modern city on the right, each with a different gauge icon above.",
+    "maskot": "Wowo menjelaskan",
+    "grafis": "Kartu: WHR 2026: Singapura #36, AS #23 [S24]; pill 'Ipsos: bahagia? WHR: seberapa baik hidupmu?' [S25].",
+    "pakai_ulang": false,
+    "sumber": [
+      "S24",
+      "S25"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 78,
+    "babak": "Twist 2: Bahagia belum tentu nyaman",
+    "klip": "K43",
+    "teks": "Ipsos bertanya, kamu bahagia nggak? World Happiness Report bertanya, seberapa baik hidupmu secara keseluruhan? Jadi mungkin kita memang bahagia dengan kekacauan ini.",
+    "estimasi_dtk": 9.4,
+    "visual": "Pakai ulang K43 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo menjelaskan",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S24",
+      "S25"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 79,
+    "babak": "Twist 2: Bahagia belum tentu nyaman",
+    "klip": "K44",
+    "teks": "Tapi coba ingat, kapan terakhir kamu lewat jalan rusak, atau menunggu antrean panjang di puskesmas sambil tetap bilang, ya sudahlah? Bahagia itu kekuatan kita.",
+    "estimasi_dtk": 10.3,
+    "visual": "A dusty, cracked road at dusk and a crowded clinic waiting room with a long line, warm dim light.",
+    "maskot": "Wowo pasrah",
+    "grafis": "Pill: 'Bahagia = kekuatan kita'; 'Nyaman = pekerjaan rumah kita'.",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 80,
+    "babak": "Twist 2: Bahagia belum tentu nyaman",
+    "klip": "K44",
+    "teks": "Nyaman itu pekerjaan rumah kita.",
+    "estimasi_dtk": 2.1,
+    "visual": "Pakai ulang K44 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo pasrah",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 81,
+    "babak": "Klimaks + penutup",
+    "klip": "K45",
+    "teks": "Jadi ini jawabannya. Tanpa korupsi sama sekali, Indonesia tidak otomatis lebih maju dari Singapura atau Amerika.",
+    "estimasi_dtk": 6.9,
+    "visual": "A bright sunrise rooftop with a gentle breeze and the city waking up, hopeful palette.",
+    "maskot": "Wowo optimis",
+    "grafis": "Kartu jawaban: 'TIDAK otomatis lebih maju. Tapi lebih cepat, lebih adil.' (pill).",
+    "pakai_ulang": false,
+    "sumber": [
+      "Simulasi"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 82,
+    "babak": "Klimaks + penutup",
+    "klip": "K45",
+    "teks": "Tapi kita punya jalan yang lebih pendek, uang yang sampai ke yang berhak, dan pajak yang terasa adil.",
+    "estimasi_dtk": 7.7,
+    "visual": "Pakai ulang K45 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo optimis",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "Simulasi"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 83,
+    "babak": "Klimaks + penutup",
+    "klip": "K46",
+    "teks": "Sisanya soal waktu, kerja keras, dan kepercayaan yang dibangun pelan-pelan. Ringkasnya, korupsi itu bukan cuma soal uang yang hilang.",
+    "estimasi_dtk": 8.1,
+    "visual": "A sunlit village road, a hospital icon, a school, and a smooth highway all connected by one golden road.",
+    "maskot": "Wowo bertanya",
+    "grafis": "Tiga kartu: JALAN (lebih murah), BANSOS (tepat), PAJAK (terasa adil).",
+    "pakai_ulang": false,
+    "sumber": [
+      "S6"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 84,
+    "babak": "Klimaks + penutup",
+    "klip": "K46",
+    "teks": "Dia mengubah jalan jadi lebih mahal, bantuan jadi tidak tepat, dan pajak jadi terasa seperti pungutan. Sekarang giliranmu.",
+    "estimasi_dtk": 7.7,
+    "visual": "Pakai ulang K46 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo bertanya",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [
+      "S6"
+    ],
+    "catatan": ""
+  },
+  {
+    "id": 85,
+    "babak": "Klimaks + penutup",
+    "klip": "K47",
+    "teks": "Kalau kamu bisa menghapus satu hal saja dari korupsi di Indonesia besok pagi, mana yang paling kamu pilih: jalan, bansos, atau pajak?",
+    "estimasi_dtk": 9.4,
+    "visual": "A big floating comment-bubble stage with three icon cards: a road, an envelope, and a coin tower.",
+    "maskot": "Wowo bertanya (ajak komentar)",
+    "grafis": "Kartu pertanyaan komentar: 'Jalan, bansos, atau pajak? Tulis satu kata.'",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 86,
+    "babak": "Klimaks + penutup",
+    "klip": "K47",
+    "teks": "Tulis di komentar, satu kata saja. Dan di video berikutnya, aku mau bayangin skenario sebaliknya.",
+    "estimasi_dtk": 6.4,
+    "visual": "Pakai ulang K47 (punch-in 1,35x, mulai detik ±3, kecepatan 0,9x)",
+    "maskot": "Wowo bertanya (ajak komentar)",
+    "grafis": "Kartu lanjutan dari klip yang sama (lihat slot sebelumnya).",
+    "pakai_ulang": true,
+    "sumber": [],
+    "catatan": ""
+  },
+  {
+    "id": 87,
+    "babak": "Klimaks + penutup",
+    "klip": "K48",
+    "teks": "Bagaimana kalau semua pajak di Indonesia dihapus selama satu tahun penuh. Apa yang terjadi di hari ke tiga?",
+    "estimasi_dtk": 9.0,
+    "visual": "A mysterious empty street at night, closed-down tax booths with their lights switched off, soft neon-blue shadows.",
+    "maskot": "Wowo menggoda (teaser)",
+    "grafis": "Pill teaser: 'Video berikutnya: semua pajak dihapus setahun, hari ke-3?'",
+    "pakai_ulang": false,
+    "sumber": [],
+    "catatan": ""
+  }
+]
