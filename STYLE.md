@@ -1,6 +1,6 @@
 # STYLE
 
-> Status: gaya visual, maskot (Wowo v4), dan alur klip Flow sudah diputuskan. Bagian grafis, thumbnail, dan audio masih draf.
+> Status: gaya visual, maskot (Wowo v4), alur klip Flow, subtitle, dan grafis sudah diuji di pilot 001. Thumbnail dan musik latar masih draf.
 
 ## Kanvas
 - 1920×1080, 30 fps (video panjang); 1080×1920 (potongan pendek).
@@ -42,12 +42,11 @@
 ### Kunci karakter untuk prompt Flow
 Dipakai persis di tiap prompt (lihat `videos/001-bebas-korupsi/flow-prompts.md`): round off-white head with thin black outline, two dot eyes, small smile, bright red baseball-style cap with short brim (no text), thin black stick body and limbs of constant line weight, no clothes.
 
-## Grafis penjelas (komponen kode di `engine/`, dibuat bertahap)
-- `Kalender` — "HARI KE-…", "TAHUN KE-…"
-- `ChatHP` — tampilan chat WhatsApp/notifikasi berita
-- `AngkaBesar` — angka/statistik dengan animasi hitung
-- `Headline` — potongan judul berita fiktif (diberi label "ilustrasi")
-- `PetaIndonesia` — sorotan provinsi/kota
+## Grafis penjelas (sudah ada di `engine/overlay.html`; tipe dipanggil lewat `overlay.json`)
+- `kal` (kalender) — "HARI KE-…", "TAHUN KE-…"
+- `notif` — kartu notifikasi berita (selalu berlabel ILUSTRASI)
+- `stat` — kartu angka dengan animasi hitung, label, dan baris sumber; `pill` — catatan pendek; `judul` — kartu judul di awal; `tanya` — pertanyaan komentar di akhir
+- Belum ada: `PetaIndonesia` (sorotan provinsi/kota), `Headline` (judul berita fiktif)
 
 ## Thumbnail
 - Maskot dengan ekspresi kuat di satu sisi.
@@ -58,3 +57,7 @@ Dipakai persis di tiap prompt (lihat `videos/001-bebas-korupsi/flow-prompts.md`)
 - Narasi selalu paling dominan.
 - Musik latar jauh lebih pelan dari narasi (sekitar -20 dB di bawahnya); SFX secukupnya.
 - Pelajaran dari kompetitor: penonton protes kalau backsound/SFX lebih keras dari narasi.
+- Narasi dinormalkan ke -16 LUFS oleh `komposit.py` (file `narasi-norm.wav`). Audio bawaan klip Flow dibuang. Musik latar belum dipakai di pilot; kalau dipakai, simpan di `assets/` dan turunkan sekitar -20 dB dari narasi.
+
+## Resolusi klip
+- Generate klip Flow di 360p, upscale ke 720p lewat Flow, lalu `rakit.py` menaikkan ke 1080p (lanczos). Cukup tajam untuk gaya stickman. Teks, angka, dan subtitle dirender langsung di 1080p dari kode.

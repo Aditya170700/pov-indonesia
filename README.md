@@ -7,11 +7,12 @@ Dapur produksi video simulasi POV bertema politik dan tata kelola Indonesia.
 - `LOG.md` — daftar video
 - `templates/` — template naskah
 - `videos/_template/` — salin untuk setiap video baru
-- `engine/` — rig Wowo (`wowo.js`), adegan HTML, dan perender ke MP4 (`render.py`)
+- `engine/` — `rakit.py` (rakit klip), `komposit.py` + `overlay.html` (subtitle, kartu angka, audio), `kata.py` (timing kata, jalan di laptop), rig Wowo (`wowo.js`) dan `render.py` untuk adegan kode
+- `PANDUAN.md` — langkah praktis untuk pemilik repo (Flow, VoiceStudio, kata.py)
 - `assets/` — suara referensi, musik, SFX
 
 ## Alat di laptop produksi
-- VoiceStudio + VoxCPM2 (narasi), faster-whisper (timing kata)
+- VoiceStudio (fitur Cerita) + VoxCPM2 clone (narasi), faster-whisper + ffmpeg (timing kata via `engine/kata.py`)
 - Google Flow (klip adegan), render dan perakitan dilakukan Claude di workspace-nya (Chrome headless + ffmpeg)
 
-File besar (narasi `.wav` per video, hasil render `.mp4`) tidak disimpan di git.
+File besar (narasi `.mp3`/`.wav`, klip dan hasil render `.mp4`) tidak disimpan di git.

@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "type": "judul",
+      "t0": 0.3,
+      "t1": 3.4,
+      "x": 70,
+      "y": 60,
+      "title": "JUDUL SINGKAT"
+    }
+  ]
+}

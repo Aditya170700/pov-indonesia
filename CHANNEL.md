@@ -45,11 +45,11 @@ Pembagian kerja: Claude = riset, naskah, storyboard, prompt klip, grafis dan per
 | 3 | Naskah (minta persetujuan) | `naskah.md` | Claude + user |
 | 4 | Storyboard + peta narasi ke klip | `storyboard.md`, `adegan.json` | Claude |
 | 5 | Prompt klip Flow | `flow-prompts.md` | Claude |
-| 6 | Uji 1 klip di 360p, lalu generate semua klip | `K01.mp4` ... (tidak masuk git) | user |
-| 7 | Narasi (VoxCPM2 clone) | `narasi.wav` (tidak masuk git) | user |
-| 8 | Timing kata (faster-whisper) | `kata.json` atau `.srt` | user |
-| 9 | Perakitan: klip + overlay angka + subtitle + audio | MP4 di `out/` | Claude |
-| 10 | Pratinjau 20 detik, revisi, lalu render penuh | — | Claude + user |
+| 6 | Uji 1 klip di 360p, lalu generate semua klip (360p, upscale ke 720p di Flow) | `klip/K01.mp4` ... (tidak masuk git) | user |
+| 7 | Narasi: VoiceStudio, fitur Cerita, naskah dari `narasi-bersih.md` | `narasi.mp3` (tidak masuk git; VoiceStudio menyimpannya di `~/.omnivoice/outputs/`) | user |
+| 8 | Timing kata: `python3 engine/kata.py narasi.mp3` | `kata.json` | user |
+| 9 | Perakitan: `timeline.json` + `overlay.json`, lalu `engine/rakit.py` (klip jadi `base.mp4`) dan `engine/komposit.py` (overlay + subtitle + audio) | MP4 di `out/` | Claude |
+| 10 | Pratinjau 20 detik (`komposit.py --start 0 --dur 20`), revisi, lalu render penuh | — | Claude + user |
 | 11 | QC (cek angka vs narasi, audio, sumber ICW/PDF) | catatan di `naskah.md` | user + Claude |
 | 12 | Kemasan: thumbnail, deskripsi + sumber, pinned comment | `upload.md` | Claude |
 | 13 | Upload + potongan Shorts | baris baru di `LOG.md` | user |
@@ -59,3 +59,8 @@ Gerbang persetujuan: naskah disetujui sebelum storyboard; satu klip uji 360p seb
 ## Memulai sesi baru
 Cukup tulis:
 > Baca CLAUDE.md. Kita lanjut video NNN: <judul>, tahap <nomor>.
+
+## Catatan dari pilot 001
+- Narasi memimpin: tiap klip diperlambat/dipercepat 0,9x-1,15x lalu dipotong atau dibekukan di frame terakhir. Karena itu durasi klip yang dipesan di storyboard sebaiknya sedikit lebih panjang dari estimasi narasi segmennya (selisih ideal 0-1 dtk), bukan jauh lebih panjang.
+- Kredit Flow: 16 klip 360p (134 dtk) memakai 135 kredit; "tingkatkan resolusi" ke 720p tidak mengurangi kredit (diuji pengguna). Render penuh 130 dtk butuh ±2 menit di workspace.
+- Panduan langkah untuk pemilik repo (Flow, VoiceStudio, kata.py): `PANDUAN.md`.

@@ -19,5 +19,5 @@ Semua yang harus konsisten antar sesi disimpan di file, bukan di ingatan chat.
 - Klip adegan dibuat di Google Flow oleh pemilik repo dari prompt di `flow-prompts.md`; Claude tidak bisa menjalankan Flow. Setiap prompt wajib berdiri sendiri dan memuat kunci karakter dari `STYLE.md`.
 - Teks, angka, dan logo tidak boleh muncul di klip AI; semuanya lewat overlay kode.
 - Alur dan gerbang persetujuan (naskah, uji 360p, pratinjau 20 detik) ada di `CHANNEL.md`.
-- Render: `python3 engine/render.py <adegan.html> <out.mp4> --w 1280 --fps 30` (Chrome headless + ffmpeg).
+- Perakitan video: isi `timeline.json` dan `overlay.json` di folder video, lalu `python3 engine/rakit.py videos/NNN-slug` (klip jadi `base.mp4`) dan `python3 engine/komposit.py videos/NNN-slug out/NNN.mp4 [--start S --dur D]` (overlay, subtitle kata per kata, narasi; Chrome headless + ffmpeg). `engine/render.py` hanya untuk adegan kode murni (maskot di `wowo.js`).
 - Setelah video selesai, tambahkan barisnya di `LOG.md`.
