@@ -5,7 +5,7 @@ Target: 1.500–1.800 kata (≈10–13 menit, ±140 kata/menit). Bahasa santai, 
 Prinsip: isi video harus **melampaui** yang dibayangkan penonton dari judul dan thumbnail. Tiap bagian harus memberi alasan untuk terus menonton: pertanyaan yang dibuka (open loop), lalu dibayar (payoff) sambil membuka pertanyaan baru. Aturan angka di bawah adalah pedoman umum, bukan hasil data channel kita; koreksi setelah ada grafik retensi dari YouTube Studio.
 
 ## Sebelum menulis (wajib)
-1. **Paket judul + thumbnail:** tulis 3 judul (pola `POV: <skenario>, Ini yang Terjadi`, maks. 60 karakter) dan 1 ide thumbnail. Judul memberi janji; naskah harus membayarnya.
+1. **Paket judul + thumbnail:** tulis 3 judul dan 3 konsep thumbnail (teks + gambar), satu sudut per varian, mengikuti `STYLE.md` bagian "Judul dan thumbnail". Judul memberi janji; naskah harus membayarnya.
 2. **Janji video** satu kalimat, dan **emosi utama** (mis. lega, kaget, resah, geli).
 3. **Fakta kejutan:** di `riset.md`, beri skor kejutan 1–100 per fakta (80+ = emas, 50–79 = pendukung, <50 dibuang). Kumpulkan 5–10 fakta kuat. Hook dan klimaks dibangun dari yang skornya tertinggi.
 4. **Peta open loop:** daftar pertanyaan yang dibuka di hook dan babak, dan di bagian mana tiap pertanyaan dijawab.
@@ -59,7 +59,7 @@ Misalnya: Hari 1 → Minggu 1 → Bulan 1 → Tahun 1 → 10 Tahun. Setiap babak
 - Bahasa percakapan: kalimat pendek, kosakata sederhana, kalimat aktif.
 
 ## Pemeriksaan sebelum minta persetujuan
-- [ ] 3 judul + ide thumbnail + janji video tertulis
+- [ ] 3 judul + 3 konsep thumbnail + janji video tertulis; tidak ada kata/angka yang sama antara judul dan teks thumbnail
 - [ ] 3 varian hook; hook memberi nilai dalam 3 detik pertama dan membuka pertanyaan
 - [ ] Peta open loop: tiap pertanyaan terjawab
 - [ ] Re-hook minimal tiap 60 detik; tidak ada bagian >60 detik tanpa fakta atau perubahan

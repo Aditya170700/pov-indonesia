@@ -20,4 +20,5 @@ Semua yang harus konsisten antar sesi disimpan di file, bukan di ingatan chat.
 - Teks, angka, dan logo tidak boleh muncul di klip AI; semuanya lewat overlay kode.
 - Alur dan gerbang persetujuan (naskah, uji 360p, pratinjau 20 detik) ada di `CHANNEL.md`.
 - Perakitan video: isi `timeline.json` dan `overlay.json` di folder video, lalu `python3 engine/rakit.py videos/NNN-slug` (klip jadi `base.mp4`; satu klip boleh dipakai ulang di beberapa entri timeline lewat field `ss`, `zoom`, `cx`, `cy`) dan `python3 engine/komposit.py videos/NNN-slug out/NNN.mp4 [--start S --dur D]` (overlay, subtitle kata per kata, narasi; Chrome headless + ffmpeg). `engine/render.py` hanya untuk adegan kode murni (maskot di `wowo.js`).
+- Kemasan: setiap video panjang wajib 3 judul + 3 thumbnail untuk uji A/B, mengikuti `STYLE.md` bagian "Judul dan thumbnail" (latar biru tua, tidak ada kata yang sama antara judul dan teks thumbnail). Thumbnail dibuat lewat `engine/thumb.html` + `engine/thumb.py`.
 - Setelah video selesai, tambahkan barisnya di `LOG.md`.

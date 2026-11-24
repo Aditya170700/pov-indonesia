@@ -31,7 +31,7 @@ for i, k in enumerate(ks):
     f += f"setpts=PTS/{s:.5f},fps={fps}"
     if z > 1.0: f += f",crop=iw/{z}:ih/{z}:(iw-iw/{z})*{cx}:(ih-ih/{z})*{cy}"
     f += ",scale=1920:1080:flags=lanczos,setsar=1"
-    if pad > 0: f += f",tpad=stop_mode=clone:stop_duration={pad:.3f}"
+    f += f",tpad=stop_mode=clone:stop_duration={pad + 2 / fps:.3f}"  # bantalan 2 frame: cegah entri kurang frame karena pembulatan
     f += f",trim=end_frame={n},setpts=PTS-STARTPTS[v{i}]"
     parts.append(f)
     print(f"{k['k']}{'*' if (ss or z>1) else ''}: jendela {win:5.2f}s klip {nat:5.2f}s kecepatan {s:.3f}x " + (f"diam {pad:.2f}s" if pad > 0 else f"potong {played-win:.2f}s"))

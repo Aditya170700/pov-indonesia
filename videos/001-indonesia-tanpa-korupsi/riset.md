@@ -85,3 +85,8 @@ Keterbatasan (diucapkan di twist): hanya tarik-menarik ICOR; abaikan kurs, infla
 | S25 | Ipsos Happiness Index 2026 (29 negara, 23.268 responden): Indonesia tertinggi, 85% mengaku bahagia (rata-rata 29 negara 74%). Beda ukuran dengan WHR (evaluasi hidup) | Gulf News; Aaj News 13/8/2026 | 90 (twist) |
 | S26 | Seoul Metro Lines 1-8: sekitar 2,44 miliar penumpang selama 2025 | Kyunghyang Shinmun 10/3/2026 | 60 |
 Catatan: S25 = bahan twist emas: "bahagia" (kita juara) vs "nyaman" (infrastruktur/layanan). Jangan menyiratkan Indonesia 'sudah cukup'.
+
+## QC sebelum rilis (23/11/2026)
+- S3 dicocokkan ke rilis ICW 30/9/2025 + PDF "Laporan Hasil Pemantauan Tren Korupsi Tahun 2024" (antikorupsi.id): Rp279,9 T dan 364 kasus cocok (PDF bagian Temuan Umum menulis 359 kasus/881 tersangka; konferensi pers 364/888). Timah: PDF "96,8 persen".
+- S9 dilengkapi: desa 77 (#1), utilitas 57 (#2), pemerintahan 41 (#3), kesehatan 39 (#4), pendidikan & perbankan 25 (#5), dari 19 sektor (ICW via RRI 9/10/2025). Kesehatan/pendidikan BUKAN peringkat 2-3; kartu diberi peringkat.
+- S21 dicocokkan: Singapura 2025 US$98.878 (IMF Article IV 2026, Table 1) / US$99.365 (IMF WEO); AS US$89.599 (IMF WEO Okt 2025). Simulasi tetap valid (rasio ±17,6-19,5x).

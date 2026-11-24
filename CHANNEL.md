@@ -13,9 +13,8 @@
 ## Format
 - **Video panjang:** 10–13 menit, 16:9, 1920×1080, 30 fps.
 - **Potongan pendek:** 45–60 detik, 9:16, diambil dari bagian terbaik video panjang.
-- **Pola judul:** `POV: <skenario>, Ini yang Terjadi`
-  - Contoh: `POV: Indonesia Bebas dari Korupsi, Ini yang Terjadi`
-  - Contoh: `POV: Pejabat di Indonesia Diisi Orang yang Tepat, Ini yang Terjadi`
+- **Judul + thumbnail:** tiap video panjang punya 3 judul dan 3 thumbnail untuk uji A/B. Aturan lengkap (sudut, panjang, warna, larangan kata yang sama) ada di `STYLE.md` bagian "Judul dan thumbnail".
+  - Pola lama `POV: <skenario>, Ini yang Terjadi` boleh jadi salah satu varian judul.
 
 ## Narator
 - Laki-laki, suara hasil clone dari `assets/suara-referensi.wav` (engine VoxCPM2, lisensi Apache-2.0).
@@ -43,7 +42,7 @@ Pembagian kerja: Claude = riset, naskah, storyboard, prompt klip, grafis dan per
 |---|---|---|---|
 | 1 | Ide + judul | judul di `naskah.md` | Claude |
 | 2 | Riset fakta + skor kejutan (5-10 fakta kuat) | `riset.md` | Claude |
-| 3 | Naskah: paket judul/thumbnail, 3 varian hook, peta open loop (minta persetujuan) | `naskah.md` | Claude + user |
+| 3 | Naskah: 3 judul + 3 konsep thumbnail (aturan di `STYLE.md`), 3 varian hook, peta open loop (minta persetujuan) | `naskah.md` | Claude + user |
 | 4 | Storyboard + peta narasi ke klip | `storyboard.md`, `adegan.json` | Claude |
 | 5 | Prompt klip Flow | `flow-prompts.md` | Claude |
 | 6 | Uji 1 klip di 360p, lalu generate semua klip (360p, upscale ke 720p di Flow) | `klip/K01.mp4` ... (tidak masuk git) | user |
@@ -52,8 +51,8 @@ Pembagian kerja: Claude = riset, naskah, storyboard, prompt klip, grafis dan per
 | 9 | Perakitan: `timeline.json` + `overlay.json`, lalu `engine/rakit.py` (klip jadi `base.mp4`) dan `engine/komposit.py` (overlay + subtitle + audio) | MP4 di `out/` | Claude |
 | 10 | Pratinjau 20 detik (`komposit.py --start 0 --dur 20`), revisi, lalu render penuh | — | Claude + user |
 | 11 | QC (cek angka vs narasi, audio, sumber ICW/PDF) | catatan di `naskah.md` | user + Claude |
-| 12 | Kemasan: thumbnail, deskripsi + sumber, pinned comment | `upload.md` | Claude |
-| 13 | Upload + potongan Shorts | baris baru di `LOG.md` | user |
+| 12 | Kemasan: 3 judul + 3 thumbnail (`engine/thumb.html`), deskripsi + sumber, pinned comment | `upload.md`, `out/NNN-thumb-A/B/C.png` | Claude |
+| 13 | Upload, aktifkan Uji & Bandingkan (judul/thumbnail), potongan Shorts | baris baru di `LOG.md` (+ pemenang uji A/B) | user |
 
 Gerbang persetujuan: naskah disetujui sebelum storyboard; satu klip uji 360p sebelum generate semua; pratinjau 20 detik sebelum render penuh.
 

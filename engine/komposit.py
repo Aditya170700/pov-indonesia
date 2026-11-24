@@ -29,7 +29,7 @@ FIX = {'gak': 'nggak', 'satupun': 'satu pun', 'diglembungkan': 'digelembungkan',
 raw = json.load(open(d / 'kata.json')); toks = []
 for w in raw:
     t = w['w']; s, e = w['s'], w['e']
-    if toks and (t.startswith(',') or t.startswith('-')):           # ',9' '-rata' '-benar' ',78'
+    if toks and (t.startswith(',') or t.startswith('-') or t.startswith('%')):   # ',9' '-rata' '-benar' ',78' '%'
         toks[-1]['t'] += t; toks[-1]['e'] = e; continue
     if toks and toks[-1]['t'].lower() == 'di' and t.lower().startswith('sensor'):   # 'di sensor,' -> 'disensor,'
         toks[-1]['t'] = 'di' + t; toks[-1]['e'] = e; continue
@@ -40,6 +40,27 @@ for k in toks:
         new = FIX[core.lower()]
         if core[:1].isupper(): new = new[:1].upper() + new[1:]
         k['t'] = new + punct
+# koreksi per video (opsional): videos/NNN/koreksi.json = [["dari", "ke"], ...]; boleh beberapa kata,
+# cocok tanpa peduli huruf besar dan tanda baca; tanda baca kata terakhir dipertahankan
+kp = d / 'koreksi.json'
+if kp.exists():
+    rules = [(a_.lower().split(), b_.split()) for a_, b_ in json.load(open(kp))]
+    core = lambda x: re.sub(r'[,.?!]+$', '', x).lower()
+    i = 0; out = []
+    while i < len(toks):
+        for src, dst in rules:
+            n_ = len(src)
+            if [core(x['t']) for x in toks[i:i + n_]] == src:
+                seg = toks[i:i + n_]; s0, e0 = seg[0]['s'], seg[-1]['e']
+                punct = re.search(r'[,.?!]*$', seg[-1]['t']).group(0)
+                if seg[0]['t'][:1].isupper() and dst[0][:1].islower(): dst = [dst[0][:1].upper() + dst[0][1:]] + dst[1:]
+                step = (e0 - s0) / len(dst)
+                for j, w_ in enumerate(dst):
+                    out.append({'t': w_ + (punct if j == len(dst) - 1 else ''), 's': s0 + j * step, 'e': s0 + (j + 1) * step})
+                i += n_; break
+        else:
+            out.append(toks[i]); i += 1
+    toks = out
 chunks, cur = [], []
 def flush():
     global cur

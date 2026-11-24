@@ -1,0 +1,102 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}canvas{display:block}</style></head>
+<body><canvas id="c" width="1280" height="720"></canvas>
+<script src="wowo.js"></script>
+<script>
+// Thumbnail alternatif video 001. ?v=A (angka Rp279 T) atau ?v=B (balapan Indonesia vs Singapura)
+const V = new URLSearchParams(location.search).get('v') || 'A';
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const W = 1280, H = 720, F = 'Poppins, sans-serif';
+const NAVY = '#14213D', RED = '#E63946', YEL = '#FFC93C', GREEN = '#2A9D8F', CREAM = '#F5F1E8', INK = '#111';
+
+function rays(cx, cy, c1, c2, n) {
+  ctx.save(); ctx.translate(cx, cy);
+  for (let i = 0; i < n; i++) {
+    ctx.fillStyle = i % 2 ? c1 : c2; ctx.beginPath(); ctx.moveTo(0, 0);
+    ctx.arc(0, 0, 2000, (i / n) * Math.PI * 2, ((i + 1) / n) * Math.PI * 2); ctx.closePath(); ctx.fill();
+  }
+  ctx.restore();
+}
+function vignette() {
+  const g = ctx.createRadialGradient(W * 0.6, H * 0.45, 200, W * 0.6, H * 0.45, 900);
+  g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(0,0,0,.55)'); ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+}
+// teks tebal dengan outline hitam (gaya thumbnail channel)
+function bigText(t, x, y, size, fill, opts = {}) {
+  ctx.save(); ctx.font = `700 ${size}px ${F}`; ctx.textAlign = opts.align || 'left'; ctx.textBaseline = 'alphabetic';
+  if (opts.rot) { ctx.translate(x, y); ctx.rotate(opts.rot); x = 0; y = 0; }
+  ctx.lineJoin = 'round'; ctx.strokeStyle = INK; ctx.lineWidth = size * 0.16; ctx.strokeText(t, x, y);
+  ctx.fillStyle = fill; ctx.fillText(t, x, y); ctx.restore();
+}
+function coin(x, y, r) {
+  ctx.save(); ctx.fillStyle = YEL; ctx.strokeStyle = INK; ctx.lineWidth = r * 0.12;
+  ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
+  ctx.strokeStyle = '#E0A800'; ctx.lineWidth = r * 0.08; ctx.beginPath(); ctx.arc(x, y, r * 0.78, 0, Math.PI * 2); ctx.stroke();
+  ctx.fillStyle = INK; ctx.font = `700 ${r * 0.8}px ${F}`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText('Rp', x, y + r * 0.05);
+  ctx.restore();
+}
+function bigHead(x, y, s, mode) { ctx.save(); ctx.translate(x, y); ctx.scale(s, s); WOWO.head(ctx, { mode }, true); ctx.restore(); }
+
+// ---------- A: angka besar Rp279 T + uang bocor ----------
+function drawA() {
+  rays(880, 360, '#1B2B52', NAVY, 28); vignette();
+  // karung uang bocor
+  const bx = 930, by = 470;
+  ctx.save(); ctx.fillStyle = '#C8A46A'; ctx.strokeStyle = INK; ctx.lineWidth = 8;
+  ctx.beginPath(); ctx.moveTo(bx - 150, by + 200); ctx.quadraticCurveTo(bx - 200, by - 40, bx - 60, by - 120);
+  ctx.lineTo(bx + 60, by - 120); ctx.quadraticCurveTo(bx + 200, by - 40, bx + 150, by + 200); ctx.closePath(); ctx.fill(); ctx.stroke();
+  ctx.fillStyle = '#A9884F'; ctx.beginPath(); ctx.roundRect(bx - 70, by - 150, 140, 40, 14); ctx.fill(); ctx.stroke();
+  ctx.fillStyle = INK; ctx.font = `700 110px ${F}`; ctx.textAlign = 'center'; ctx.fillText('Rp', bx, by + 90);
+  // sobekan + koin berhamburan
+  ctx.fillStyle = INK; ctx.beginPath(); ctx.moveTo(bx + 150, by + 60); ctx.lineTo(bx + 120, by + 90); ctx.lineTo(bx + 158, by + 110); ctx.lineTo(bx + 128, by + 140); ctx.lineTo(bx + 165, by + 150); ctx.fill();
+  ctx.restore();
+  [[1110, 600, 34], [1170, 520, 28], [1210, 640, 30], [1080, 680, 26], [1150, 440, 22]].forEach(c => coin(...c));
+  // Wowo kaget, kepala besar menyembul di kiri karung
+  bigHead(735, 300, 4.2, 'wow');
+  // teks
+  bigText('Rp279', 40, 250, 200, YEL);
+  bigText('TRILIUN', 50, 375, 118, '#FFFFFF');
+  ctx.save(); ctx.fillStyle = RED; ctx.strokeStyle = INK; ctx.lineWidth = 7;
+  ctx.translate(60, 430); ctx.rotate(-0.04); ctx.beginPath(); ctx.roundRect(0, 0, 360, 110, 18); ctx.fill(); ctx.stroke();
+  ctx.fillStyle = '#fff'; ctx.font = `700 76px ${F}`; ctx.textBaseline = 'middle'; ctx.fillText('BOCOR!', 40, 60); ctx.restore();
+  bigText('setiap tahun', 64, 640, 64, '#FFFFFF');
+}
+
+// ---------- B: Indonesia vs Singapura, berapa tahun ----------
+function flagID(x, y, w) { const h = w * 0.66; ctx.save(); ctx.strokeStyle = INK; ctx.lineWidth = 6; ctx.fillStyle = RED; ctx.fillRect(x, y, w, h / 2); ctx.fillStyle = '#fff'; ctx.fillRect(x, y + h / 2, w, h / 2); ctx.strokeRect(x, y, w, h); ctx.restore(); }
+function flagSG(x, y, w) {
+  const h = w * 0.66; ctx.save(); ctx.strokeStyle = INK; ctx.lineWidth = 6;
+  ctx.fillStyle = RED; ctx.fillRect(x, y, w, h / 2); ctx.fillStyle = '#fff'; ctx.fillRect(x, y + h / 2, w, h / 2);
+  const cx = x + w * 0.2, cy = y + h * 0.25, r = h * 0.18;
+  ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = RED; ctx.beginPath(); ctx.arc(cx + r * 0.32, cy, r * 0.9, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#fff';
+  for (let i = 0; i < 5; i++) { const a = -Math.PI / 2 + i * 2 * Math.PI / 5, sx = cx + r * 1.15 + Math.cos(a) * r * 0.55, sy = cy + Math.sin(a) * r * 0.55; ctx.beginPath(); ctx.arc(sx, sy, r * 0.13, 0, Math.PI * 2); ctx.fill(); }
+  ctx.strokeRect(x, y, w, h); ctx.restore();
+}
+function drawB() {
+  const g = ctx.createLinearGradient(0, 0, 0, H); g.addColorStop(0, '#1B2B52'); g.addColorStop(1, NAVY); ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  // lintasan
+  const ty = 560;
+  ctx.fillStyle = '#2E3F66'; ctx.fillRect(0, ty - 30, W, 150);
+  ctx.strokeStyle = 'rgba(255,255,255,.35)'; ctx.lineWidth = 6; ctx.setLineDash([40, 30]); ctx.beginPath(); ctx.moveTo(0, ty + 45); ctx.lineTo(W, ty + 45); ctx.stroke(); ctx.setLineDash([]);
+  // Singapura jauh di depan (kanan), bendera di garis finis
+  const fx = 1060;
+  for (let i = 0; i < 8; i++) for (let j = 0; j < 2; j++) { ctx.fillStyle = (i + j) % 2 ? '#fff' : INK; ctx.fillRect(fx + j * 22, ty - 30 + i * 19, 22, 19); }
+  ctx.strokeStyle = INK; ctx.lineWidth = 8; ctx.beginPath(); ctx.moveTo(fx + 22, ty - 30); ctx.lineTo(fx + 22, ty - 200); ctx.stroke();
+  flagSG(fx + 22, ty - 205, 150);
+  // garis start + bendera Indonesia di belakang Wowo
+  ctx.strokeStyle = INK; ctx.lineWidth = 8; ctx.beginPath(); ctx.moveTo(70, ty - 30); ctx.lineTo(70, ty - 200); ctx.stroke();
+  flagID(70, ty - 205, 150);
+  // Wowo lari, kaget
+  WOWO.drawWowo(ctx, { variant: 'stick', x: 330, groundY: ty + 60, k: 1.55, legF: [45, -5], legB: [-40, -70], armF: [-40, -90], armB: [60, 110], lean: 12, face: { mode: 'wow' } });
+  // panah jarak
+  ctx.strokeStyle = YEL; ctx.fillStyle = YEL; ctx.lineWidth = 12; ctx.beginPath(); ctx.moveTo(450, ty - 120); ctx.lineTo(1000, ty - 120); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(1030, ty - 120); ctx.lineTo(990, ty - 148); ctx.lineTo(990, ty - 92); ctx.fill();
+  // teks
+  bigText('126 TAHUN?', W / 2, 165, 160, YEL, { align: 'center' });
+  bigText('buat nyusul Singapura', W / 2, 255, 66, '#FFFFFF', { align: 'center' });
+}
+(V === 'A' ? drawA : drawB)();
+window.done = true;
+</script></body></html>

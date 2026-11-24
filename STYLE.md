@@ -1,6 +1,6 @@
 # STYLE
 
-> Status: gaya visual, maskot (Wowo v4), alur klip Flow, subtitle, dan grafis sudah diuji di pilot 001. Logo, banner, dan thumbnail sudah memakai Wowo v4; musik latar masih draf.
+> Status: gaya visual, maskot (Wowo v4), alur klip Flow, subtitle, dan grafis sudah diuji di pilot 001. Aturan judul + thumbnail (paket A/B) ditetapkan 24 Nov 2026. Musik latar masih draf.
 
 ## Kanvas
 - 1920×1080, 30 fps (video panjang); 1080×1920 (potongan pendek).
@@ -45,18 +45,53 @@ Dipakai persis di tiap prompt (lihat `videos/testing/flow-prompts.md`): round of
 ## Grafis penjelas (sudah ada di `engine/overlay.html`; tipe dipanggil lewat `overlay.json`)
 - `kal` (kalender) — "HARI KE-…", "TAHUN KE-…"
 - `notif` — kartu notifikasi berita (selalu berlabel ILUSTRASI)
-- `stat` — kartu angka dengan animasi hitung, label, dan baris sumber; `pill` — catatan pendek; `judul` — kartu judul di awal; `tanya` — pertanyaan komentar di akhir
+- `stat` — kartu angka dengan animasi hitung, label, dan baris sumber; `pill` — catatan pendek (warna opsional `bg`/`fg`); `judul` — kartu judul di awal; `tanya` — pertanyaan komentar di akhir
+- Ditambah di video 001: `hitung` (baris operasi muncul satu per satu, baris `hasil` besar), `bar` (batang horizontal tumbuh saat angkanya diucapkan; opsional `tag`), `sim` (label SIMULASI SEDERHANA + keterangan asumsi), `jawab` (cap besar "TIDAK" + kalimat jawaban + baris hijau), `teaser` (video berikutnya, masuk dari kanan)
+- Teks kartu otomatis dikecilkan kalau tidak muat lebar kartu. Cek posisi kartu terhadap kepala Wowo per klip sebelum render penuh.
+- Koreksi ejaan subtitle per video: `videos/NNN/koreksi.json` (`[["dari", "ke"], ...]`, boleh beberapa kata), dipakai `komposit.py` setelah daftar `FIX` global.
 - Belum ada: `PetaIndonesia` (sorotan provinsi/kota), `Headline` (judul berita fiktif)
 
-## Logo, banner, thumbnail (dari kode)
-- Semua dibuat oleh `engine/aset.html` + `engine/aset.py` memakai rig Wowo v4 (stickman + topi merah): `python3 engine/aset.py logo|banner|thumb-a|thumb-b KELUAR.png`.
-- Logo `assets/logo-800.png` (800x800, avatar bulat), banner `assets/banner-2560x1440.png` (konten di area aman YouTube 1546x423), thumbnail 1280x720 per video (`videos/NNN-slug/thumbnail-*.png`).
-- Thumbnail baru: tambah fungsi di `aset.html`, jangan menggambar maskot di luar `wowo.js`.
+## Judul dan thumbnail (paket uji A/B)
 
-## Thumbnail
-- Maskot dengan ekspresi kuat di satu sisi.
-- Teks maksimal 4 kata, kuning/putih, outline hitam, diakhiri "?" atau "!".
-- Latar kontras dengan objek simbolik topiknya.
+Setiap video panjang WAJIB punya **3 judul** dan **3 thumbnail** yang berbeda, untuk diuji di YouTube Studio (Uji & Bandingkan). Ketiganya ditulis di tahap 3 (konsep) dan dibuat di tahap 12 (`upload.md`).
+
+### Tiga sudut (satu sudut per varian)
+| Varian | Judul | Thumbnail |
+|---|---|---|
+| A | Skenario/pertanyaan ("Gimana jadinya kalau…?") | Angka paling mengejutkan (mis. "Rp279 TRILIUN BOCOR!") |
+| B | Angka/hasil ("279 Triliun…") | Perbandingan/visual (mis. Indonesia vs Singapura, "126 TAHUN?") |
+| C | Perbandingan/konflik ("…Bisa Nyusul Singapura?") | Wowo ekspresi kuat + satu pertanyaan pendek |
+
+Pasangan varian di tabel hanya titik awal; yang penting tiap judul dan tiap thumbnail punya sudut berbeda, bukan sekadar ganti kata.
+
+### Aturan judul
+- Maks. **70 karakter** (ideal 45–60). Kata kunci topik (mis. "korupsi", "pajak") wajib ada di ketiga judul dan berada di **40 karakter pertama**, karena judul terpotong di HP.
+- Angka ditulis dengan digit ("279 Triliun", "10 Tahun"), bukan huruf.
+- Huruf besar di awal kata (Title Case). Maks. 1 tanda seru per judul; tidak ada kata yang SELURUHNYA KAPITAL.
+- Janji judul harus terjawab di video (tidak clickbait palsu). Angka di judul harus sama dengan angka di narasi.
+- Pola lama `POV: <skenario>, Ini yang Terjadi` boleh dipakai sebagai salah satu varian, tidak wajib.
+
+### Aturan thumbnail
+- **Warna latar: biru tua**, gradasi `#1B2B52` ke `#14213D` (boleh pola sinar/rays). Jangan latar merah dominan: tenggelam di tampilan YouTube yang merah-putih. Merah `#E63946` hanya untuk aksen (label, bendera, peringatan).
+- **Teks:** kuning `#FFC93C` untuk teks utama, putih untuk keterangan; Poppins Bold dengan outline hitam tebal (±16% ukuran huruf).
+- **Jumlah kata:** teks besar maks. **3 kata/angka**, keterangan kecil maks. **3 kata**; total maks. 6 kata. Satu ide per thumbnail.
+- **Wowo wajib ada**, ekspresi kuat (kaget, panik, lari), digambar dari `engine/wowo.js`. Tidak ada foto tokoh nyata, logo partai, atau logo media.
+- **Zona aman:** pojok kanan bawah ±200×80 px dibiarkan kosong (label durasi YouTube).
+- **Uji ukuran kecil:** perkecil ke lebar 246 px (ukuran di daftar rekomendasi); teks utama harus tetap terbaca.
+- File: PNG 1280×720, < 2 MB, disimpan di `out/NNN-thumb-A.png`, `-B.png`, `-C.png`.
+- Pembuatan: `engine/thumb.html` (contoh dari video 001; salin fungsi `drawA`/`drawB`, ganti teks dan objek) lalu `python3 engine/thumb.py A B C`.
+
+### Aturan silang judul × thumbnail
+- **Tidak boleh ada kata atau angka yang sama** antara teks thumbnail mana pun dan judul mana pun dalam satu paket (kecuali kata fungsi: di, ke, dari, yang, dan, untuk, buat). Alasannya: saat uji A/B, judul dan thumbnail mana pun bisa tampil berpasangan, jadi thumbnail harus menambah informasi, bukan mengulang judul.
+  - Contoh salah: judul "279 Triliun Terselamatkan!…" + thumbnail "Rp279 TRILIUN".
+  - Contoh benar: judul "Gimana Jadinya Kalau Indonesia Nol Korupsi…?" + thumbnail "126 TAHUN? buat nyusul Singapura".
+- Judul dan thumbnail tetap membicarakan janji yang sama; jangan sampai thumbnail menjanjikan hal yang tidak ada di video.
+
+### Cara menjalankan uji A/B
+1. Upload dengan judul A + thumbnail A.
+2. YouTube Studio → video → **Uji & Bandingkan**. Kalau tersedia uji gabungan judul + thumbnail, pasangkan A-A, B-B, C-C. Kalau tidak, uji judul dulu; setelah ada pemenang, uji 3 thumbnail.
+3. Selama uji berjalan, jangan ganti judul atau thumbnail secara manual.
+4. Catat pemenang (judul dan thumbnail) dan CTR-nya di `LOG.md`. Setelah ±5 video, lihat sudut mana yang paling sering menang dan koreksi tabel "Tiga sudut" di atas.
 
 ## Audio
 - Narasi selalu paling dominan.
